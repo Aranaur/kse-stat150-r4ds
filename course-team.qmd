@@ -37,7 +37,7 @@ Find me on the web or send a signal:
 
 ### 🐧 Co-pilot
 
-![](images/pipe.png){style="float:right;padding: 0 0 0 20px; border-radius: 10px;" fig-alt="Pipe the Penguin - Course Assistant" width="250"}
+![](images/pipe.png){.float-md-end .ms-md-4 fig-align="center" width="250" style="border-radius: 10px;" fig-alt="Pipe the Penguin - Course Assistant"}
 
 **Pipe the Penguin**
 
