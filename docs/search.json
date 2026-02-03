@@ -4,10 +4,94 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "This page contains an outline of the topics, content, and assignments for the semester. Note that this schedule will be updated as the semester progresses and the timeline of topics and assignments might be updated throughout the semester.\n\n\n\n\n\n\n\n\nWEEK\nDATE\nTOPIC\nPREPARE\nMATERIALS\nDUE\n\n\n\n\n1\nMon, Aug 28\nWelcome to STA 101!\n\n\n🖥️ slides  ☁️ ae-01  ⌨️ ae-01\n\n\n\n\n\n\nWed, Aug 30\nHello data\n📖 ims: Chp 1  💻 tutorial: 01-data-01 |&gt; submit\n🖥️ slides  ☁️ ae-02  ⌨️ ae-02  🗝️ ae-02-sa\n🔘 Survey: Getting to know you\n\n\n\n\nFri, Sep 1\nLab 1: Hello R!\n\n\n⌨️ lab-1\n\n\n\n\n2\nMon, Sep 4\n⚒️ Labor Day - No lecture\n\n\n\n\n\n\n\n\n\n\nWed, Sep 6\nStudy design\n📖 ims: Chp 2  💻 tutorial: 01-data-02 |&gt; submit  💻 tutorial: 01-data-03 |&gt; submit\n🖥️ slides  ☁️ ae-03  ⌨️ ae-03  🗝️ ae-03-sa\n\n\n\n\n\n\nThu, Sep 7\n\n\n\n\n\n\n✅ Lab 1 at 5 pm\n\n\n\n\nFri, Sep 8\nLab 2: Hello data!\n📖 ims: Chp 3  💻 tutorial: 01-data-04 |&gt; submit\n⌨️ lab-2\n\n\n\n\n3\nMon, Sep 11\nExploring categorical data\n📖 ims: Chp 4  💻 tutorial: 02-explore-01 |&gt; submit\n🖥️ slides  ☁️ ae-04  ⌨️ ae-04  🗝️ ae-04-sa\n\n\n\n\n\n\nWed, Sep 13\nExploring numerical data\n📖 ims: Chp 5  💻 tutorial: 02-explore-02 |&gt; submit\n🖥️ slides  ☁️ ae-05  ⌨️ ae-05  🗝️ ae-05-sa\n\n\n\n\n\n\nThu, Sep 14\n\n\n\n\n\n\n✅ Lab 2 at 5 pm\n\n\n\n\nFri, Sep 15\nLab 3: Exploratory data analysis\n📖 ims: Chp 6  💻 tutorial: 02-explore-03 |&gt; submit\n⌨️ lab-3\n\n\n\n\n4\nMon, Sep 18\nRegression with a single predictor I  Guest Lecture: Dr. Alex Fisher\n📖 ims: Chp 7.1 - 7.2  💻 tutorial: 03-model-01 |&gt; submit  💻 tutorial: 03-model-02 |&gt; submit \n🖥️ slides  ☁️ ae-06  ⌨️ ae-06  🗝️ ae-06-sa\n\n\n\n\n\n\nWed, Sep 20\nNo class  Catch up with readings and interactive tutorials\n📖 ims: Chp 7.2 - 7.4  💻 tutorial: 03-model-03 |&gt; submit\n\n\n\n\n\n\n\n\nThu, Sep 21\n\n\n\n\n\n\n✅ Lab 3 at 5 pm\n\n\n\n\nFri, Sep 22\nLab 4: Regression\n\n\n⌨️ lab-4\n\n\n\n\n5\nMon, Sep 25\nRegression with multiple predictors\n📖 ims: Chp 8.1 - 8.3\n🖥️ slides  ☁️ ae-07  ⌨️ ae-07  🗝️ ae-07-sa\n\n\n\n\n\n\nWed, Sep 27\nModel selection\n📖 ims: Chp 8.4 - 8.5\n🖥️ slides  ☁️ ae-08  ⌨️ ae-08  🗝️ ae-08-sa\n\n\n\n\n\n\nThu, Sep 28\n\n\n\n\n\n\n✅ Lab 4 at 5 pm\n\n\n\n\nFri, Sep 29\nExam 1 Review\n\n\n📝 er-1  🗝️ er-1-sa\n\n\n\n\n6\nMon, Oct 2\nRegression overview\n\n\n🖥️ slides\n\n\n\n\n\n\nWed, Oct 4\nExam 1 - In class\n\n\n\n\n\n\n\n\n\n\nFri, Oct 6\nNo lab: Work on Exam 1 - Take home\n\n\n\n\nExam 1 - Take home + Tutorials at 5 pm\n\n\n7\nMon, Oct 9\nLogistic regression I\n📖 ims: Chp 9.1 - 9.2\n🖥️ slides  ☁️ ae-09  ⌨️ ae-09  🗝️ ae-09-sa\n\n\n\n\n\n\nWed, Oct 11\nLogistic regression II\n📖 ims: Chp 9.3 - 9.5\n🖥️ slides\n\n\n\n\n\n\nFri, Oct 13\nProject 1 workday\n\n\n\n\n📄 Project 1 at 5 pm\n\n\n8\nMon, Oct 16\n🍂 Fall Break - No lecture\n\n\n\n\n\n\n\n\n\n\nWed, Oct 18\nHypothesis testing with randomization\n📖 ims: Chp 11  💻 tutorial: 04-foundations-01 |&gt; submit  💻 tutorial: 04-foundations-02 |&gt; submit\n🖥️ slides  ☁️ ae-10  ⌨️ ae-10  🗝️ ae-10\n\n\n\n\n\n\nFri, Oct 20\nLab 5: Hypothesis testing\n\n\n⌨️ lab-5\n\n\n\n\n9\nMon, Oct 23\nConfidence intervals with bootstrapping\n📖 ims: Chp 12  💻 tutorial: 04-foundations-04 |&gt; submit\n🖥️ slides\n\n\n\n\n\n\nWed, Oct 25\nDecision errors  Guest Lecture: Dr. Yue Jiang\n📖 ims: Chp 14  💻 tutorial: 04-foundations-03 |&gt; submit\n🖥️ slides\n\n\n\n\n\n\nThu, Oct 26\n\n\n\n\n\n\n✅ Lab 5 at 5 pm\n\n\n\n\nFri, Oct 27\nLab 6: Foundations of inference\n\n\n⌨️ lab-6\n\n\n\n\n10\nMon, Oct 30\nInference with mathematical models\n📖 ims: Chp 13\n🖥️ slides  ☁️ ae-11  ⌨️ ae-11  🗝️ ae-11\n\n\n\n\n\n\nWed, Nov 1\nZoom lecture:  Inference for a single proportion\n📖 ims: Chp 16  💻 tutorial: 05-infer-01 |&gt; submit\n🖥️ slides  ☁️ ae-12  ⌨️ ae-12  🗝️ ae-12\n\n\n\n\n\n\nThu, Nov 2\n\n\n\n\n\n\n✅ Lab 6 at 5 pm\n\n\n\n\nFri, Nov 3\nLab 7: Inference for proportions\n\n\n⌨️ lab-7\n\n\n\n\n11\nMon, Nov 6\nInference for comparing two proportions\n📖 ims: Chp 17  💻 tutorial: 05-infer-02 |&gt; submit\n🖥️ slides  ☁️ ae-13  ⌨️ ae-13  🗝️ ae-13\n\n\n\n\n\n\nWed, Nov 8\nInference for two-way tables\n📖 ims: Chp 18  💻 tutorial: 05-infer-03 |&gt; submit\n🖥️ slides  ☁️ ae-14  ⌨️ ae-14  🗝️ ae-14\n\n\n\n\n\n\nThu, Nov 9\n\n\n\n\n\n\n✅ Lab 7 at 5 pm\n\n\n\n\nFri, Nov 10\nExam 2 Review\n💻 tutorial: 05-infer-04 |&gt; submit\n📝 er-2  🗝️ er-2-sa\n\n\n\n\n12\nMon, Nov 13\nOverview: Inference for proportions\n📖 ims: Chp 23.1\n🖥️ slides\n\n\n\n\n\n\nWed, Nov 15\nExam 2 - In class\n\n\n\n\n\n\n\n\n\n\nFri, Nov 17\nNo lab: Work on Exam 2 - Take home\n\n\n\n\nExam 2 - Take home + Tutorials at 5 pm\n\n\n13\nMon, Nov 20\nInference for a single mean\n📖 ims: Chp 19  💻 tutorial: 05-infer-05 |&gt; submit  💻 tutorial: 05-infer-06 |&gt; submit\n🖥️ slides  ☁️ ae-15  ⌨️ ae-15  🗝️ ae-15\n\n\n\n\n\n\nWed, Nov 22\n🦃 Thanksgiving Break - No lecture\n\n\n\n\n\n\n\n\n\n\nFri, Nov 24\n🦃 Thanksgiving Break - No lab\n\n\n\n\n\n\n\n\n14\nMon, Nov 27\nInference for comparing two independent means\n📖 ims: Chp 20  💻 tutorial: 05-infer-07 |&gt; submit\n🖥️ slides  ☁️ ae-16  ⌨️ ae-16\n\n\n\n\n\n\nWed, Nov 29\nInference for comparing two paired + more means\n📖 ims: Chp 21\n🖥️ slides  ☁️ ae-17\n\n\n\n\n\n\nFri, Dec 1\nProject proposal conversation  Lab 8: Inference for means\n\n\n⌨️ lab-8 [Optional]\n📄 Project 2 proposal conversation\n\n\n15\nMon, Dec 4\nEthics\n🎥 Data privacy  🎥 Misrepresentation  🎥 Algorithmic bias  🎥 Joy Buolamwini - How I’m fighting bias in algorithms  🎥 Cathy O’Neil - Weapons of Math Destruction  🎥 Safiya Umoja Noble - Imagining a Future Free from the Algorithms of Oppression\n🖥️ slides\n\n\n\n\n\n\nWed, Dec 6\nTelling a (data) story\n📖 fdv: Chp 29\n🖥️ slides\n\n\n\n\n\n\nThu, Dec 7\n\n\n\n\n\n\n✅ Lab 8 at 5 pm\n\n\n\n\nFri, Dec 8\nProject 2 peer review\n\n\n\n\n📄 Project 2 peer review\n\n\n16\nThu, Dec 14\n\n\n\n\n\n\n📄 Project 2 at 2 pm",
+    "text": "This page contains an outline of the topics, content, and assignments for the semester. Note that this schedule will be updated as the semester progresses and the timeline of topics and assignments might be updated throughout the semester.\n\n\n\n\n\n\n\n\nWEEK\nDATE\nTOPIC\nPREPARE\nMATERIALS\nDUE\n\n\n\n\n1\nMon, Aug 28\nWelcome to STA 101!\n\n\n🖥️ slides  ☁️ ae-01  ⌨️ ae-01\n\n\n\n\n\n\nWed, Aug 30\nHello data\n📖 ims: Chp 1  💻 tutorial: 01-data-01 |&gt; submit\n🖥️ slides  ☁️ ae-02  ⌨️ ae-02  🗝️ ae-02-sa\n🔘 Survey: Getting to know you\n\n\n\n\nFri, Sep 1\nLab 1: Hello R!\n\n\n⌨️ lab-1\n\n\n\n\n2\nMon, Sep 4\n⚒️ Labor Day - No lecture\n\n\n\n\n\n\n\n\n\n\nWed, Sep 6\nStudy design\n📖 ims: Chp 2  💻 tutorial: 01-data-02 |&gt; submit  💻 tutorial: 01-data-03 |&gt; submit\n🖥️ slides  ☁️ ae-03  ⌨️ ae-03  🗝️ ae-03-sa\n\n\n\n\n\n\nThu, Sep 7\n\n\n\n\n\n\n✅ Lab 1 at 5 pm\n\n\n\n\nFri, Sep 8\nLab 2: Hello data!\n📖 ims: Chp 3  💻 tutorial: 01-data-04 |&gt; submit\n⌨️ lab-2\n\n\n\n\n3\nMon, Sep 11\nExploring categorical data\n📖 ims: Chp 4  💻 tutorial: 02-explore-01 |&gt; submit\n🖥️ slides  ☁️ ae-04  ⌨️ ae-04  🗝️ ae-04-sa\n\n\n\n\n\n\nWed, Sep 13\nExploring numerical data\n📖 ims: Chp 5  💻 tutorial: 02-explore-02 |&gt; submit\n🖥️ slides  ☁️ ae-05  ⌨️ ae-05  🗝️ ae-05-sa\n\n\n\n\n\n\nThu, Sep 14\n\n\n\n\n\n\n✅ Lab 2 at 5 pm\n\n\n\n\nFri, Sep 15\nLab 3: Exploratory data analysis\n📖 ims: Chp 6  💻 tutorial: 02-explore-03 |&gt; submit\n⌨️ lab-3\n\n\n\n\n4\nMon, Sep 18\nRegression with a single predictor I  Guest Lecture: Dr. Alex Fisher\n📖 ims: Chp 7.1 - 7.2  💻 tutorial: 03-model-01 |&gt; submit  💻 tutorial: 03-model-02 |&gt; submit \n🖥️ slides  ☁️ ae-06  ⌨️ ae-06  🗝️ ae-06-sa\n\n\n\n\n\n\nWed, Sep 20\nNo class  Catch up with readings and interactive tutorials\n📖 ims: Chp 7.2 - 7.4  💻 tutorial: 03-model-03 |&gt; submit\n\n\n\n\n\n\n\n\nThu, Sep 21\n\n\n\n\n\n\n✅ Lab 3 at 5 pm\n\n\n\n\nFri, Sep 22\nLab 4: Regression\n\n\n⌨️ lab-4\n\n\n\n\n5\nMon, Sep 25\nRegression with multiple predictors\n📖 ims: Chp 8.1 - 8.3\n🖥️ slides  ☁️ ae-07  ⌨️ ae-07  🗝️ ae-07-sa\n\n\n\n\n\n\nWed, Sep 27\nModel selection\n📖 ims: Chp 8.4 - 8.5\n🖥️ slides  ☁️ ae-08  ⌨️ ae-08  🗝️ ae-08-sa\n\n\n\n\n\n\nThu, Sep 28\n\n\n\n\n\n\n✅ Lab 4 at 5 pm\n\n\n\n\nFri, Sep 29\nExam 1 Review\n\n\n📝 er-1  🗝️ er-1-sa\n\n\n\n\n6\nMon, Oct 2\nRegression overview\n\n\n🖥️ slides\n\n\n\n\n\n\nWed, Oct 4\nExam 1 - In class\n\n\n\n\n\n\n\n\n\n\nFri, Oct 6\nNo lab: Work on Exam 1 - Take home\n\n\n\n\nExam 1 - Take home + Tutorials at 5 pm\n\n\n7\nMon, Oct 9\nLogistic regression I\n📖 ims: Chp 9.1 - 9.2\n🖥️ slides  ☁️ ae-09  ⌨️ ae-09  🗝️ ae-09-sa\n\n\n\n\n\n\nWed, Oct 11\nLogistic regression II\n📖 ims: Chp 9.3 - 9.5\n🖥️ slides\n\n\n\n\n\n\nFri, Oct 13\nProject 1 workday\n\n\n\n\n📄 Project 1 at 5 pm\n\n\n8\nMon, Oct 16\n🍂 Fall Break - No lecture\n\n\n\n\n\n\n\n\n\n\nWed, Oct 18\nHypothesis testing with randomization\n📖 ims: Chp 11  💻 tutorial: 04-foundations-01 |&gt; submit  💻 tutorial: 04-foundations-02 |&gt; submit\n🖥️ slides  ☁️ ae-10  ⌨️ ae-10  🗝️ ae-10\n\n\n\n\n\n\nFri, Oct 20\nLab 5: Hypothesis testing\n\n\n⌨️ lab-5\n\n\n\n\n9\nMon, Oct 23\nConfidence intervals with bootstrapping\n📖 ims: Chp 12  💻 tutorial: 04-foundations-04 |&gt; submit\n🖥️ slides\n\n\n\n\n\n\nWed, Oct 25\nDecision errors  Guest Lecture: Dr. Yue Jiang\n📖 ims: Chp 14  💻 tutorial: 04-foundations-03 |&gt; submit\n🖥️ slides\n\n\n\n\n\n\nThu, Oct 26\n\n\n\n\n\n\n✅ Lab 5 at 5 pm\n\n\n\n\nFri, Oct 27\nLab 6: Foundations of inference\n\n\n⌨️ lab-6\n\n\n\n\n10\nMon, Oct 30\nInference with mathematical models\n📖 ims: Chp 13\n🖥️ slides  ☁️ ae-11  ⌨️ ae-11  🗝️ ae-11\n\n\n\n\n\n\nWed, Nov 1\nZoom lecture:  Inference for a single proportion\n📖 ims: Chp 16  💻 tutorial: 05-infer-01 |&gt; submit\n🖥️ slides  ☁️ ae-12  ⌨️ ae-12  🗝️ ae-12\n\n\n\n\n\n\nThu, Nov 2\n\n\n\n\n\n\n✅ Lab 6 at 5 pm\n\n\n\n\nFri, Nov 3\nLab 7: Inference for proportions\n\n\n⌨️ lab-7\n\n\n\n\n11\nMon, Nov 6\nInference for comparing two proportions\n📖 ims: Chp 17  💻 tutorial: 05-infer-02 |&gt; submit\n🖥️ slides  ☁️ ae-13  ⌨️ ae-13  🗝️ ae-13\n\n\n\n\n\n\nWed, Nov 8\nInference for two-way tables\n📖 ims: Chp 18  💻 tutorial: 05-infer-03 |&gt; submit\n🖥️ slides  ☁️ ae-14  ⌨️ ae-14  🗝️ ae-14\n\n\n\n\n\n\nThu, Nov 9\n\n\n\n\n\n\n✅ Lab 7 at 5 pm\n\n\n\n\nFri, Nov 10\nExam 2 Review\n💻 tutorial: 05-infer-04 |&gt; submit\n📝 er-2  🗝️ er-2-sa\n\n\n\n\n12\nMon, Nov 13\nOverview: Inference for proportions\n📖 ims: Chp 23.1\n🖥️ slides\n\n\n\n\n\n\nWed, Nov 15\nExam 2 - In class\n\n\n\n\n\n\n\n\n\n\nFri, Nov 17\nNo lab: Work on Exam 2 - Take home\n\n\n\n\nExam 2 - Take home + Tutorials at 5 pm\n\n\n13\nMon, Nov 20\nInference for a single mean\n📖 ims: Chp 19  💻 tutorial: 05-infer-05 |&gt; submit  💻 tutorial: 05-infer-06 |&gt; submit\n🖥️ slides  ☁️ ae-15  ⌨️ ae-15  🗝️ ae-15\n\n\n\n\n\n\nWed, Nov 22\n🦃 Thanksgiving Break - No lecture\n\n\n\n\n\n\n\n\n\n\nFri, Nov 24\n🦃 Thanksgiving Break - No lab\n\n\n\n\n\n\n\n\n14\nMon, Nov 27\nInference for comparing two independent means\n📖 ims: Chp 20  💻 tutorial: 05-infer-07 |&gt; submit\n🖥️ slides  ☁️ ae-16  ⌨️ ae-16\n\n\n\n\n\n\nWed, Nov 29\nInference for comparing two paired + more means\n📖 ims: Chp 21\n🖥️ slides  ☁️ ae-17\n\n\n\n\n\n\nFri, Dec 1\nProject proposal conversation  Lab 8: Inference for means\n\n\n⌨️ lab-8 [Optional]\n📄 Project 2 proposal conversation\n\n\n15\nMon, Dec 4\nEthics\n🎥 Data privacy  🎥 Misrepresentation  🎥 Algorithmic bias  🎥 Joy Buolamwini - How I’m fighting bias in algorithms  🎥 Cathy O’Neil - Weapons of Math Destruction  🎥 Safiya Umoja Noble - Imagining a Future Free from the Algorithms of Oppression\n🖥️ slides\n\n\n\n\n\n\nWed, Dec 6\nTelling a (data) story\n📖 fdv: Chp 29\n🖥️ slides\n\n\n\n\n\n\nThu, Dec 7\n\n\n\n\n\n\n✅ Lab 8 at 5 pm\n\n\n\n\nFri, Dec 8\nProject 2 peer review\n\n\n\n\n📄 Project 2 peer review\n\n\n16\nThu, Dec 14\n\n\n\n\n\n\n📄 Project 2 at 2 pm"
+  },
+  {
+    "objectID": "lectures/lecture-6.html",
+    "href": "lectures/lecture-6.html",
+    "title": "Advanced imports and data manipulations",
+    "section": "",
+    "text": "View slides in full screen",
     "crumbs": [
-      "Course information",
-      "Schedule"
+      "📜 Slides",
+      "06 - Advanced Data Manipulation"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture-6.html#slides",
+    "href": "lectures/lecture-6.html#slides",
+    "title": "Advanced imports and data manipulations",
+    "section": "",
+    "text": "View slides in full screen",
+    "crumbs": [
+      "📜 Slides",
+      "06 - Advanced Data Manipulation"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture-4.html",
+    "href": "lectures/lecture-4.html",
+    "title": "Data visualization - ggplot2 and beyond",
+    "section": "",
+    "text": "View slides in full screen",
+    "crumbs": [
+      "📜 Slides",
+      "04 - Data Visualization with ggplot2"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture-4.html#slides",
+    "href": "lectures/lecture-4.html#slides",
+    "title": "Data visualization - ggplot2 and beyond",
+    "section": "",
+    "text": "View slides in full screen",
+    "crumbs": [
+      "📜 Slides",
+      "04 - Data Visualization with ggplot2"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture-2.html",
+    "href": "lectures/lecture-2.html",
+    "title": "Data cleaning & wrangling - Tidyverse",
+    "section": "",
+    "text": "View slides in full screen",
+    "crumbs": [
+      "📜 Slides",
+      "02 - Data Wrangling with Tidyverse"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture-2.html#slides",
+    "href": "lectures/lecture-2.html#slides",
+    "title": "Data cleaning & wrangling - Tidyverse",
+    "section": "",
+    "text": "View slides in full screen",
+    "crumbs": [
+      "📜 Slides",
+      "02 - Data Wrangling with Tidyverse"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture-0.html",
+    "href": "lectures/lecture-0.html",
+    "title": "Hello there!",
+    "section": "",
+    "text": "View slides in full screen",
+    "crumbs": [
+      "📜 Slides",
+      "00 - Hello there!"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture-0.html#slides",
+    "href": "lectures/lecture-0.html#slides",
+    "title": "Hello there!",
+    "section": "",
+    "text": "View slides in full screen",
+    "crumbs": [
+      "📜 Slides",
+      "00 - Hello there!"
     ]
   },
   {
@@ -107,7 +191,7 @@
     "section": "",
     "text": "Welcome, young explorers!\nThis semester, we are setting off on a thrilling scientific expedition to the icy shores of Antarctica. Our lead guide is an experienced polar explorer, a penguin named Pipe1. He knows everything about data, because his whole life is data: the length of his beak, his wingspan, and even his favorite type of fish!\n1 He got his name for his amazing ability to combine different actions into one smooth and logical flow, as if passing data through an invisible “pipeline” (|&gt;). This is the approach he wants to pass on to you!Our mission is to learn the R language to understand penguins, analyze their lives, and present our findings to the world. Forget about boring lectures. We have campfire briefings, field research, and a final Grand Penguin Gala Presentation awaiting us!\n\n\n\n\n\nOnce upon a time, in faraway Antarctica, penguins lived their quiet lives until the first explorers arrived and started collecting data on their behavior. Over time, this data turned into massive sets of information that needed analysis. That was when Pipe appeared, a researcher penguin who learned to use R to understand his world. Now Pipe wants to share his knowledge with you so that you can help him uncover the secrets of penguin life.\n\n\n\nLately, Pipe has noticed something strange. The population of his favorite fish, the ice sardine, has started to decline sharply near the coast. What is happening? Is it climate change? A new predator? Or perhaps the fish have simply migrated?\n\n\n\nOur mission is to use the full power of R to analyze data on water temperature, ocean currents, the activity of other animals, and find the answer. The final project will serve as your report to the International Penguin Council, where you will present your findings and save the future of the ice sardines!\n\n\n\n\n\n\n\n🧠 An open mind and a thirst for knowledge.\n🤓 A desire to experiment and no fear of making mistakes.\n🤝 Readiness to work in a team and share ideas.\n🧥 Comfortable clothing for cold weather (metaphorically—a comfortable working environment on your computer).\n\n\n\n\n\nMaster the basics of programming in R and using RStudio.\nLearn to collect, clean, and analyze data.\nDevelop data visualization skills using ggplot2.\nPrepare and present your own research in the form of a Quarto report.\n\n\n\n\n\n\n\n\nYou will be able to confidently write code in R for data analysis.\nYou will learn to create informative visualizations.\nYou will gain experience working with real datasets.\nYou will be able to present your findings in the form of a professional report.\n\n\n\n\nOur route includes several exciting stages:\n\n\n\n\n🔥Campfire Briefings (Lectures): Here, our lead guide (the instructor) and Pipe will share wisdom: showing maps, teaching how to use tools (R and RStudio), and telling stories about great discoveries in the world of data.\n🧪Field Research (Practical Labs): Time to get your hands dirty! We will go out onto the “ice floes” (real datasets), learn to clean snow off the data, build charts that shine like the aurora borealis, and make our own discoveries.\n📈Weekly Expedition Reports (Homework): Every explorer keeps a logbook. You will document your findings, write code, and share results in the format of Quarto reports.\n🎊Grand Penguin Gala Presentation (Final Project): The culmination of our journey! You (solo or in a team) will present your own research—from data collection to final conclusions—before the esteemed council of penguins (and the instructor).",
     "crumbs": [
-      "Course information",
+      "👋Course information",
       "Syllabus"
     ]
   },
@@ -118,7 +202,7 @@
     "section": "",
     "text": "Once upon a time, in faraway Antarctica, penguins lived their quiet lives until the first explorers arrived and started collecting data on their behavior. Over time, this data turned into massive sets of information that needed analysis. That was when Pipe appeared, a researcher penguin who learned to use R to understand his world. Now Pipe wants to share his knowledge with you so that you can help him uncover the secrets of penguin life.",
     "crumbs": [
-      "Course information",
+      "👋Course information",
       "Syllabus"
     ]
   },
@@ -129,7 +213,7 @@
     "section": "",
     "text": "Lately, Pipe has noticed something strange. The population of his favorite fish, the ice sardine, has started to decline sharply near the coast. What is happening? Is it climate change? A new predator? Or perhaps the fish have simply migrated?\n\n\n\nOur mission is to use the full power of R to analyze data on water temperature, ocean currents, the activity of other animals, and find the answer. The final project will serve as your report to the International Penguin Council, where you will present your findings and save the future of the ice sardines!",
     "crumbs": [
-      "Course information",
+      "👋Course information",
       "Syllabus"
     ]
   },
@@ -140,7 +224,7 @@
     "section": "",
     "text": "🧠 An open mind and a thirst for knowledge.\n🤓 A desire to experiment and no fear of making mistakes.\n🤝 Readiness to work in a team and share ideas.\n🧥 Comfortable clothing for cold weather (metaphorically—a comfortable working environment on your computer).",
     "crumbs": [
-      "Course information",
+      "👋Course information",
       "Syllabus"
     ]
   },
@@ -151,7 +235,7 @@
     "section": "",
     "text": "Master the basics of programming in R and using RStudio.\nLearn to collect, clean, and analyze data.\nDevelop data visualization skills using ggplot2.\nPrepare and present your own research in the form of a Quarto report.",
     "crumbs": [
-      "Course information",
+      "👋Course information",
       "Syllabus"
     ]
   },
@@ -162,7 +246,7 @@
     "section": "",
     "text": "You will be able to confidently write code in R for data analysis.\nYou will learn to create informative visualizations.\nYou will gain experience working with real datasets.\nYou will be able to present your findings in the form of a professional report.",
     "crumbs": [
-      "Course information",
+      "👋Course information",
       "Syllabus"
     ]
   },
@@ -173,7 +257,7 @@
     "section": "",
     "text": "Our route includes several exciting stages:\n\n\n\n\n🔥Campfire Briefings (Lectures): Here, our lead guide (the instructor) and Pipe will share wisdom: showing maps, teaching how to use tools (R and RStudio), and telling stories about great discoveries in the world of data.\n🧪Field Research (Practical Labs): Time to get your hands dirty! We will go out onto the “ice floes” (real datasets), learn to clean snow off the data, build charts that shine like the aurora borealis, and make our own discoveries.\n📈Weekly Expedition Reports (Homework): Every explorer keeps a logbook. You will document your findings, write code, and share results in the format of Quarto reports.\n🎊Grand Penguin Gala Presentation (Final Project): The culmination of our journey! You (solo or in a team) will present your own research—from data collection to final conclusions—before the esteemed council of penguins (and the instructor).",
     "crumbs": [
-      "Course information",
+      "👋Course information",
       "Syllabus"
     ]
   },
@@ -184,7 +268,7 @@
     "section": "💡Interests",
     "text": "💡Interests\n\n🎭 Penguin behavior analysis\n🖼️ Data visualization\n🤖 Machine learning\n🌍 Antarctic ecology",
     "crumbs": [
-      "Course information",
+      "👋Course information",
       "Syllabus"
     ]
   },
@@ -195,7 +279,7 @@
     "section": "💭Philosophy",
     "text": "💭Philosophy\n\n“Data isn’t just numbers. These are stories waiting to be told.”",
     "crumbs": [
-      "Course information",
+      "👋Course information",
       "Syllabus"
     ]
   },
@@ -206,7 +290,7 @@
     "section": "👍Likes",
     "text": "👍Likes\n\n🐟 Favorite food: Fresh fish\n🎶 Favorite music: Sounds of the ocean and calls of other penguins\n✨ Hobbies: Swimming, exploring new territories, and playing snowballs",
     "crumbs": [
-      "Course information",
+      "👋Course information",
       "Syllabus"
     ]
   },
@@ -217,7 +301,7 @@
     "section": "✅Fun Facts",
     "text": "✅Fun Facts\n\n🛠️ Pipe learned to code by watching researchers.\n🗃️ He created his own dataset on penguin behavior, which is used in scientific studies.\n🏫 Pipe dreams of one day opening a school for penguins where they can learn data science.",
     "crumbs": [
-      "Course information",
+      "👋Course information",
       "Syllabus"
     ]
   },
@@ -228,7 +312,7 @@
     "section": "📖Expedition Logbook: Route Details",
     "text": "📖Expedition Logbook: Route Details\n\n\n\n\nWeek 1: 🧳 Packing Suitcases\n\nTopic: R Basics, IDE, Data Types.\n\nTask: Researchers from the ‘Palmer’ Antarctic station have sent us the first file. It contains basic data on the penguin population. Our first task is to open this “evidence container” in RStudio, check if all data is in place, and determine where we have numbers (beak length), where we have text (penguin species), and where we have logical variables (whether a chick was sighted). This is the foundation of our investigation, and we must be confident in the quality of our first evidence.\nResult of Report #1: The researcher loads the data, uses functions str(), summary(), class(), and writes a short conclusion.\n\n\n\n\n\nWeek 2: 🐧 First Steps on Ice\n\nTopic: dplyr, tidyr (data transformation).\n\nTask: We received a new file about the temperature regime. But the data was collected from several buoys, and it is, to put it mildly, messy. Somewhere there are gaps (NA), somewhere the temperature is in Fahrenheit instead of Celsius. Your task is to “clean up the crime scene”: using dplyr, filter out records from broken buoys, using mutate(), create a new column with temperature in Celsius, and using select(), keep only the most important columns. We cannot look for anomalies in dirty data.\nResult of Report #2: The researcher provides code for cleaning the data and the final “clean” table.\n\n\n\n\n\n\n\n\nWeek 3: 📓 Keeping the Captain’s Log\n\nTopic: Quarto (reports).\n\nTask: The International Penguin Council demands the first interim report. They don’t want to see just code. They need a professional document. Your task is to format the results of the previous week (cleaned data) into a Quarto report. Add headings, a text description of your actions, the code itself, and the output (e.g., the first 6 rows of the clean table). This is our first official document in the case of the disappearing sardines!\nResult of Report #3: A professionally formatted PDF or HTML report documenting the first steps of the investigation.\n\n\n\n\n\nWeek 4: 🗺️ Visualizing Colony Data\n\nTopic: ggplot2 (visualization).\n\nTask: Dry numbers are good, but we need a picture! Using cleaned temperature data and sardine population data, create a chart using ggplot2. On the X-axis—years, on the Y-axis—water temperature and sardine count. Is there a visual correlation? Is it true that when the water gets warmer, there are fewer fish? This could be our first serious piece of evidence!\nResult of Report #4: A chart with a conclusion: Visual analysis shows a potential inverse relationship between water temperature and sardine population. Further research is needed.\n\n\n\n\n\n\n\n\nWeek 5: 📡 Listening to Penguin Talk\n\nTopic: Web scraping, API.\n\nTask: One hypothesis is the change in sea ice area. We don’t have this data, but the National Snow and Ice Data Center (NSIDC) publishes it online. Your task is to collect data on Antarctic ice area for the last 10 years using rvest (or via API, if available). Is there a declining trend? This could be another factor affecting the ecosystem.\nResult of Report #5: A script for data collection and the obtained dataset with a short description.\n\n\n\n\n\nWeek 6: 🔍 Techniques for Advanced Explorers\n\nTopic: DuckDB, Arrow (big data).\n\nTask: We were handed a giant archive. It contains millions of records on fishing vessel activity. Opening it in Excel is suicide. Use Arrow and DuckDB to efficiently analyze this data without loading it into memory. Our question: has fishing activity increased in the sardine disappearance area in recent years?\nResult of Report #6: An SQL query via DuckDB to the file and the result (e.g., an aggregated table by years) with a conclusion.\n\n\n\n\n\n\n\n\nWeek 7: 🗺 Mapping Uncharted Lands\n\nTopic: sf (spatial analysis).\n\nTask: We have coordinates of temperature buoys, fishing data, and places where sardines disappeared. Time to put it all on a map! Using sf, create a map of the region. Mark thermal anomalies (highest temperature), intense fishing zones, and places where sardines were seen previously. are there “hot spots” where all these factors intersect? This could be the epicenter of our mystery.\nResult of Report #7: A map of the region with data layers applied and a conclusion about the spatial overlap of factors.\n\n\n\n\n\nWeek 8: 🎉 Grand Penguin Gala Presentation!\n\nTopic: Final Project.\n\nTask: Zero Hour. You have collected all the evidence. Now combine the results of all previous reports (text, code, charts, maps) into one final, comprehensive report in Quarto. Draw a clear conclusion, answering the main question: what happened to the ice sardine? Present your theory, backed by the data you analyzed throughout the expedition.",
     "crumbs": [
-      "Course information",
+      "👋Course information",
       "Syllabus"
     ]
   },
@@ -239,7 +323,6 @@
     "section": "",
     "text": "The following cheatsheets come from https://posit.co/resources/cheatsheets. We haven’t covered every function and functionality listed on them, but you might still find them useful as references.",
     "crumbs": [
-      "Home",
       "✏️Cheatsheets"
     ]
   },
@@ -250,7 +333,6 @@
     "section": "",
     "text": "After completing this assignment, you will be able to:\n\nWork with large, partitioned datasets (DuckDB, Arrow, or Polars).\nExplore and visualize time-dependent or categorical patterns.\nReproducibly document a complete analysis pipeline.",
     "crumbs": [
-      "Home",
       "🏋️ Weekly assignments",
       "06 - Advanced Imports and Data Manipulations"
     ]
@@ -262,7 +344,6 @@
     "section": "",
     "text": "After completing this assignment, you will be able to:\n\nWork with large, partitioned datasets (DuckDB, Arrow, or Polars).\nExplore and visualize time-dependent or categorical patterns.\nReproducibly document a complete analysis pipeline.",
     "crumbs": [
-      "Home",
       "🏋️ Weekly assignments",
       "06 - Advanced Imports and Data Manipulations"
     ]
@@ -274,7 +355,6 @@
     "section": "📦 Dataset",
     "text": "📦 Dataset\nIn this assignment, you will work with New York City Taxi & Limousine Commission (TLC) Trip Record Data: 👉 https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page\nThese open datasets contain detailed trip records from NYC taxis and for-hire vehicles (FHV, green/yellow cabs, etc.).",
     "crumbs": [
-      "Home",
       "🏋️ Weekly assignments",
       "06 - Advanced Imports and Data Manipulations"
     ]
@@ -286,7 +366,6 @@
     "section": "🧠 Your task",
     "text": "🧠 Your task\nYou are a data analyst exploring taxi activity in New York. Your goal is to import, transform, and analyze one or more subsets of the NYC taxi data using advanced import and manipulation techniques.\nYou decide: - which category of taxi trips to analyze (Yellow, Green, FHV, etc.), - which time period to focus on (for example, one month, one quarter, or a comparison between months/years).\n\n⚙️ Step 1 — Data import\nChoose an import method suited for working with large files:\n\nUse arrow::open_dataset() to read directly from a Parquet/CSV directory.\nOr use DuckDB to query data locally.\nYou can also use partitioned datasets (e.g. year/month folders) to analyze multiple files efficiently.\n\n\n\n\n\n\n\nTip\n\n\n\nYou can also save your selected subset in .csv format for performance comparison.\n\n\n\n\n🔄 Step 2 — Data exploration and transformation\nPerform data manipulation using SQL queries with dplyr, arrow, or polars.\nPossible ideas:\n\nCompute average trip distance or fare month-to-month.\nCompare tips by vendor or taxi type (Yellow vs Green).\nIdentify peak hours or days with the highest number of trips.\nDetect outliers or anomalies in trip duration or amount.\n\n\n\n\n\n\n\nTip\n\n\n\nIt’s only a suggestion. Feel free to explore other interesting questions.\n\n\n\n\n📊 Step 3 — Visualization and insights\nCreate 1–2 visualizations that best communicate your findings, such as:\n\nLine chart: monthly average trip distance or total rides.\nBar chart: tip comparison across taxi types.\nScatter plot: temperature vs. number of rides.\n\nMake sure your plots have:\n\nclear titles, labels, and legends;\nan interpretation paragraph in your Quarto report.",
     "crumbs": [
-      "Home",
       "🏋️ Weekly assignments",
       "06 - Advanced Imports and Data Manipulations"
     ]
@@ -298,7 +377,6 @@
     "section": "📤 Submission",
     "text": "📤 Submission\nSubmit a Quarto report (.qmd and PDF/HTML) that includes:\n\ndescription of your question and selected dataset subset;\ndata import process (DuckDB, Arrow, or Polars);\ncleaning, transformation, and merging steps;\nvisualizations with comments;\n(optional) performance note comparing two import methods.\n\nIf you use HTML, publish your report at Quarto Pub or GitHub Pages and include the link in your submission.",
     "crumbs": [
-      "Home",
       "🏋️ Weekly assignments",
       "06 - Advanced Imports and Data Manipulations"
     ]
@@ -310,7 +388,6 @@
     "section": "",
     "text": "By completing this assignment, you will learn to:\n\nCraft a data-driven narrative using ggplot2.\nCreate sophisticated multi-layered plots (e.g., combining geom_point, geom_smooth, geom_text etc.).\nMaster advanced aesthetic mappings to convey complex relationships.\nDesign custom themes and annotations to create publication-ready visualizations.\nExplore extensions to ggplot2 to create dynamic or composite plots.\nThink critically about visualization choices and justify them in a clear, concise manner.",
     "crumbs": [
-      "Home",
       "🏋️ Weekly assignments",
       "04 - Data Visualization with ggplot2"
     ]
@@ -322,7 +399,6 @@
     "section": "",
     "text": "By completing this assignment, you will learn to:\n\nCraft a data-driven narrative using ggplot2.\nCreate sophisticated multi-layered plots (e.g., combining geom_point, geom_smooth, geom_text etc.).\nMaster advanced aesthetic mappings to convey complex relationships.\nDesign custom themes and annotations to create publication-ready visualizations.\nExplore extensions to ggplot2 to create dynamic or composite plots.\nThink critically about visualization choices and justify them in a clear, concise manner.",
     "crumbs": [
-      "Home",
       "🏋️ Weekly assignments",
       "04 - Data Visualization with ggplot2"
     ]
@@ -334,7 +410,6 @@
     "section": "📂 Dataset",
     "text": "📂 Dataset\nReuse the dataset from Assignment 02 (the one you tidied and wrangled). You already prepared it — now it’s time to visualize! Or choose a new dataset from TidyTuesday. Especially if it’s a Netflix dataset 🙃",
     "crumbs": [
-      "Home",
       "🏋️ Weekly assignments",
       "04 - Data Visualization with ggplot2"
     ]
@@ -346,7 +421,6 @@
     "section": "📝 The Challenge",
     "text": "📝 The Challenge\nImagine you are a data journalist. Your task is to create a visual story using your dataset.\nYour audience: curious readers who don’t know R, statistics, or data science.\nYour mission: make the data speak clearly, visually, and persuasively.\n\nInstructions\n\nChoose a dataset (your tidied dataset from Assignment 02 or a new one from TidyTuesday).\nIdentify a compelling story or insight within the data that you want to communicate.\nCreate a series of visualizations using ggplot2 (and its extensions if desired) to illustrate your story. Aim for at least 3-5 different plots.\nWrite a narrative that ties the visualizations together, explaining the insights and significance of each plot.\nUse Quarto to compile your visualizations and narrative into a cohesive document.\n\n\n\n\n\n\n\nTip\n\n\n\nHere are some resources to help you get started:\n\nThe R Graph Gallery — a collection of hundreds of charts made with R.\nggplot2 extensions — explore various extensions to ggplot2 for enhanced functionality.\nMetBrewer package for color palettes inspired by works at the Metropolitan Museum of Art: GitHub.\nSlides from seminar (Even More) Exciting Data Visualizations with ggplot2 Extensions by Cédric Scherer",
     "crumbs": [
-      "Home",
       "🏋️ Weekly assignments",
       "04 - Data Visualization with ggplot2"
     ]
@@ -358,7 +432,6 @@
     "section": "📤 Submission",
     "text": "📤 Submission\nSubmit the .qmd file, and rendered document (PDF) to the assignment submission portal.",
     "crumbs": [
-      "Home",
       "🏋️ Weekly assignments",
       "04 - Data Visualization with ggplot2"
     ]
@@ -370,7 +443,6 @@
     "section": "",
     "text": "After completing this assignment, you should be able to:\n\nImport and explore real-world datasets from the TidyTuesday project.\nUse dplyr functions to filter, arrange, and select subsets of data.\nCreate new variables with mutate().\nSummarize grouped data with group_by() + summarise().\nReshape messy datasets using pivot_longer() and pivot_wider().\nApply piping (|&gt;) for readable workflows.",
     "crumbs": [
-      "Home",
       "🏋️ Weekly assignments",
       "02 - Data Wrangling & Tidying with Tidyverse"
     ]
@@ -382,7 +454,6 @@
     "section": "",
     "text": "After completing this assignment, you should be able to:\n\nImport and explore real-world datasets from the TidyTuesday project.\nUse dplyr functions to filter, arrange, and select subsets of data.\nCreate new variables with mutate().\nSummarize grouped data with group_by() + summarise().\nReshape messy datasets using pivot_longer() and pivot_wider().\nApply piping (|&gt;) for readable workflows.",
     "crumbs": [
-      "Home",
       "🏋️ Weekly assignments",
       "02 - Data Wrangling & Tidying with Tidyverse"
     ]
@@ -394,7 +465,6 @@
     "section": "📂 Dataset",
     "text": "📂 Dataset\nFor this assignment, each student should choose any dataset from the TidyTuesday GitHub repository.\n\n\n\n\n\n\nTip👉 Recommendations\n\n\n\n\nPick a dataset that interests you (e.g., food, sports, education, social trends, space, animals).\nAvoid datasets that are too small (less than 100 rows) or too complicated (multiple nested tables).\nRead the description and context of the dataset on the TidyTuesday page to understand its variables and structure.\nFrom my experience, I know it is very tempting to find “the one” dataset. Do not spend too much time searching. Just pick one and start working with it.\n\n\n\nLoad the dataset directly from GitHub using readr::read_csv() or read the instructions on the TidyTuesday page for that week. For example, you can use the following code to load the dataset for the week of October 22, 2024:\n\nlibrary(tidytuesdayR)\n\ntuesdata &lt;- tidytuesdayR::tt_load('2024-10-22')\n\n---- Compiling #TidyTuesday Information for 2024-10-22 ----\n--- There is 1 file available ---\n\n\n── Downloading files ───────────────────────────────────────────────────────────\n\n  1 of 1: \"cia_factbook.csv\"\n\ntuesdata$cia_factbook\n\n# A tibble: 259 × 11\n   country       area birth_rate death_rate infant_mortality_rate internet_users\n   &lt;chr&gt;        &lt;dbl&gt;      &lt;dbl&gt;      &lt;dbl&gt;                 &lt;dbl&gt;          &lt;dbl&gt;\n 1 Russia      1.71e7       11.9      13.8                   7.08       40853000\n 2 Canada      9.98e6       10.3       8.31                  4.71       26960000\n 3 United Sta… 9.83e6       13.4       8.15                  6.17      245000000\n 4 China       9.60e6       12.2       7.44                 14.8       389000000\n 5 Brazil      8.51e6       14.7       6.54                 19.2        75982000\n 6 Australia   7.74e6       12.2       7.07                  4.43       15810000\n 7 India       3.29e6       19.9       7.35                 43.2        61338000\n 8 Argentina   2.78e6       16.9       7.34                  9.96       13694000\n 9 Kazakhstan  2.72e6       19.6       8.31                 21.6         5299000\n10 Algeria     2.38e6       24.0       4.31                 21.8              NA\n# ℹ 249 more rows\n# ℹ 5 more variables: life_exp_at_birth &lt;dbl&gt;, maternal_mortality_rate &lt;dbl&gt;,\n#   net_migration_rate &lt;dbl&gt;, population &lt;dbl&gt;, population_growth_rate &lt;dbl&gt;",
     "crumbs": [
-      "Home",
       "🏋️ Weekly assignments",
       "02 - Data Wrangling & Tidying with Tidyverse"
     ]
@@ -406,7 +476,6 @@
     "section": "📝 Tasks",
     "text": "📝 Tasks\n\n\n\n\n\n\nImportant\n\n\n\nBelow is only a basic scenario. Please take the initiative of a researcher — ask questions about the data and find answers to them. This is much more interesting than simply “memorizing” the language’s syntax.\n\n\n\nImport and Explore the Data:\n\nLoad the dataset into R.\nUse functions like head(), glimpse(), and summary() to understand its structure and contents.\n\nFiltering & Selecting:\n\nApply at least two filtering conditions (e.g., values above a threshold, excluding missing data).\nSelect 3–5 relevant variables. Show the first 10 rows.\nFind the top 5 records according to some numeric variable of your choice.\n\nMutating Variables:\n\nCreate a new column that is a ratio, difference, or transformation of existing variables.\nIdentify the record with the maximum value of this new variable.\n\nGrouping & Summarizing:\n\nGroup the data by a categorical variable and calculate summary statistics (mean, median, count) for a numeric variable.\nPresent the results in a clear table.\nInterpret the findings.\n\n\n\n\n\n\n\n\nNote\n\n\n\nFor some datasets, you may need to join multiple tables or tidy the data first using pivot_longer() or pivot_wider(). Feel free to do so if necessary.",
     "crumbs": [
-      "Home",
       "🏋️ Weekly assignments",
       "02 - Data Wrangling & Tidying with Tidyverse"
     ]
@@ -418,17 +487,9 @@
     "section": "📤 Submission",
     "text": "📤 Submission\n\nSubmit your .r file.\nYour code must run without errors.\nAdd short comments explaining what each step does.",
     "crumbs": [
-      "Home",
       "🏋️ Weekly assignments",
       "02 - Data Wrangling & Tidying with Tidyverse"
     ]
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
   },
   {
     "objectID": "assignments/lab-1.html",
@@ -437,7 +498,6 @@
     "section": "",
     "text": "Let’s look how you can read formulas in math notation and translate them into R code.\nYour first task is to compute the Pearson linear correlation coefficient1 using its mathematical formula:\n\\[\nr = \\frac{\\sum_{i=1}^n \\left(x_i - \\frac{1}{n}\\sum_{j=1}^n x_j\\right)\\left(y_i - \\frac{1}{n}\\sum_{j=1}^n y_j\\right)}\n         {\\sqrt{\\sum_{i=1}^n \\left(x_i - \\frac{1}{n}\\sum_{j=1}^n x_j\\right)^2} \\sqrt{\\sum_{i=1}^n \\left(y_i - \\frac{1}{n}\\sum_{j=1}^n y_j\\right)^2}}\n\\]\n\n\n\n\n\n\nNoteExplanation of Pearson correlation\n\n\n\n\n\n\n\n\n\nLet x and y be two vectors of identical lengths n, say. Next code chunk generates two such vectors of length n = 100:\n\nn &lt;- 100\nx &lt;- runif(n, 0, 10)\ny &lt;- 2 * x + runif(n, -1, 1)\n\n\n\n\n\n\n\nWarning\n\n\n\nDo not use the built-in cor() function.\n\n\n\n\n\n\n\n\nTip\n\n\n\n\nIn this exercise, you need to calculate the correlation coefficient manually using the formula above. And please, do not use loops, as they are not necessary here.\nFunctions that may be useful: mean(), length(), sqrt().\nRead the documentation for the runif(). Why does it return different values each time you run it? How can you make it return the same values each time?",
     "crumbs": [
-      "Home",
       "🏋️ Weekly assignments",
       "01 - Welcome to R"
     ]
@@ -449,7 +509,6 @@
     "section": "Footnotes",
     "text": "Footnotes\n\n\nYou will use this formula in couple of courses, so it is worth memorizing it.↩︎\nThe dataset is adapted from the NASA Exoplanet Archive. It contains information about various exoplanets discovered outside our solar system.↩︎",
     "crumbs": [
-      "Home",
       "🏋️ Weekly assignments",
       "01 - Welcome to R"
     ]
@@ -461,7 +520,6 @@
     "section": "",
     "text": "After completing this assignment, you should be able to:\n\nCreate reproducible documents using Quarto.\nIntegrate R code and narrative text seamlessly.\nRender documents to various formats (HTML, PDF, Word).\nUse Quarto extensions to enhance document functionality and appearance.",
     "crumbs": [
-      "Home",
       "🏋️ Weekly assignments",
       "03 - Reproducible publishing with Quarto"
     ]
@@ -473,7 +531,6 @@
     "section": "",
     "text": "After completing this assignment, you should be able to:\n\nCreate reproducible documents using Quarto.\nIntegrate R code and narrative text seamlessly.\nRender documents to various formats (HTML, PDF, Word).\nUse Quarto extensions to enhance document functionality and appearance.",
     "crumbs": [
-      "Home",
       "🏋️ Weekly assignments",
       "03 - Reproducible publishing with Quarto"
     ]
@@ -485,7 +542,6 @@
     "section": "📝 Tasks: your CV",
     "text": "📝 Tasks: your CV\nIn this assignment, you will create a simple CV using Quarto. The CV should include the following sections1:\n\nPersonal Information (name, contact details, LinkedIn/GitHub links)\nEducation (degrees, institutions, graduation dates)\nWork Experience (job titles, companies, dates, responsibilities)\nSkills (programming languages, tools, technologies)\nProjects (brief descriptions and links to GitHub repositories or live demos). If you do not have any projects yet, you can indicate which courses you have completed and what skills you have acquired.\n\n\n\n\n\n\n\nNote\n\n\n\nTry to think ahead: as you gain new skills and experience, you must update your resume. It is a good idea to keep all your achievements in a separate file and refer to it to update/add to your achievements. Use code chunks for this.\n\n\n\nInstructions\n\nCreate a new Quarto document (.qmd file).\nCreate a CV using Quarto.\nAdd a YAML header at the top of the document with appropriate metadata (title, author, date, output format).\nRender the Quarto document to PDF format.\n\n\n\n\n\n\n\nTip\n\n\n\nNext tips can help you to make your CV more attractive and informative:\n\nYou can use the Quarto CV template as a starting point.\nIconify, Font Awesome and Academicons extensions for Quarto provide a wide range of icons that you can use to enhance the visual appeal of your CV.\nYou can use gt package and/or kableExtra package to create beautiful tables in your CV.\nQuarto Publishing provides detailed instructions on how to publish your Quarto documents to various platforms.",
     "crumbs": [
-      "Home",
       "🏋️ Weekly assignments",
       "03 - Reproducible publishing with Quarto"
     ]
@@ -497,7 +553,6 @@
     "section": "📤 Submission",
     "text": "📤 Submission\nSubmit the .qmd file, and rendered document (PDF) to the assignment submission portal.",
     "crumbs": [
-      "Home",
       "🏋️ Weekly assignments",
       "03 - Reproducible publishing with Quarto"
     ]
@@ -509,7 +564,6 @@
     "section": "Footnotes",
     "text": "Footnotes\n\n\nIt’s only a suggestion. You can modify the sections as per your preference.↩︎",
     "crumbs": [
-      "Home",
       "🏋️ Weekly assignments",
       "03 - Reproducible publishing with Quarto"
     ]
@@ -521,9 +575,8 @@
     "section": "",
     "text": "By the end of this assignment, you will be able to:\n\nScrape data from a webpage using the rvest package.\nRetrieve data from a public API using the httr2 and jsonlite packages.\nClean and structure the collected data into a tidy format.\nVisualize the data to explore and communicate insights.\nDocument your data collection and cleaning process.",
     "crumbs": [
-      "Home",
       "🏋️ Weekly assignments",
-      "05 - Web scraping and APIs"
+      "05 - Web Scraping and APIs"
     ]
   },
   {
@@ -533,9 +586,8 @@
     "section": "",
     "text": "By the end of this assignment, you will be able to:\n\nScrape data from a webpage using the rvest package.\nRetrieve data from a public API using the httr2 and jsonlite packages.\nClean and structure the collected data into a tidy format.\nVisualize the data to explore and communicate insights.\nDocument your data collection and cleaning process.",
     "crumbs": [
-      "Home",
       "🏋️ Weekly assignments",
-      "05 - Web scraping and APIs"
+      "05 - Web Scraping and APIs"
     ]
   },
   {
@@ -545,9 +597,8 @@
     "section": "📝 Task 1. Basic",
     "text": "📝 Task 1. Basic\nIn this task, you will work with a website where data is directly embedded in the HTML page. Your goal is to choose a website of interest and collect structured data from it.\n\nInstructions\n\nChoose a source. Find a webpage that contains data in a table or a list that can be converted into a table. This can be anything that interests you.\n\nIdeas for inspiration:\n\nSports competition results (e.g., a football league table, Olympic Games results).\nA list of movies, books, or music albums with ratings (e.g., IMDb Top 250 movies, bestseller lists).\nData from Wikipedia (e.g., a list of the world’s tallest buildings, demographic data for countries).\nA product catalog from a small online store (avoid large marketplaces that actively protect against scraping).\n\n\nScrape the data using rvest. Use SelectorGadget or your browser’s developer tools to find the correct CSS selectors for the elements you need.\n\nUse functions like read_html(), html_elements(), html_table() or html_text2() to extract the data.\n\nClean and structure the data. Transform the raw data into a tidy tibble.\n\nUse janitor::clean_names() to standardize column names.\nUse dplyr and stringr to clean the data: remove unnecessary characters, and convert data types (e.g., from text to numbers or dates).\n\nSave the cleaned data.\nMake some visualizations to explore the data.\nDocument your process. Write a brief summary of the steps you took, any challenges you faced, and how you overcame them.",
     "crumbs": [
-      "Home",
       "🏋️ Weekly assignments",
-      "05 - Web scraping and APIs"
+      "05 - Web Scraping and APIs"
     ]
   },
   {
@@ -557,9 +608,8 @@
     "section": "📝 Task 2. Advanced",
     "text": "📝 Task 2. Advanced\nThis task will teach you how to retrieve data from web services via their Application Programming Interfaces (APIs). This is a more reliable and “polite” way to collect data than HTML scraping.\n\nInstructions\n\nFind a public API. There are countless services that provide data through an API. This usually requires a free registration to obtain an API key.\n\nIdeas for inspiration:\n\nOpenWeatherMap — Weather data.\nThe Movie Database (TMDB) — Information about movies, actors, etc.\nFRED — Economic data (as seen in the lecture).\nNASA APIs — Data and photos from NASA.\n\n\nRegister and get an API key. Store it securely, for example, using usethis::edit_r_environ().\nMake a request. Using httr2 and jsonlite, send a request to the API, receive the response in JSON format, and parse it.\nCreate a dataframe. Extract the necessary data from the resulting structure and convert it into a tidy table.\nSave the cleaned data.\nMake some visualizations to explore the data.\nDocument your process. Write a brief summary of the steps you took, any challenges you faced, and how you overcame them.",
     "crumbs": [
-      "Home",
       "🏋️ Weekly assignments",
-      "05 - Web scraping and APIs"
+      "05 - Web Scraping and APIs"
     ]
   },
   {
@@ -569,9 +619,8 @@
     "section": "📤 Submission",
     "text": "📤 Submission\nSubmit the .qmd file, and rendered document (PDF) to the assignment submission portal.",
     "crumbs": [
-      "Home",
       "🏋️ Weekly assignments",
-      "05 - Web scraping and APIs"
+      "05 - Web Scraping and APIs"
     ]
   },
   {
@@ -581,7 +630,6 @@
     "section": "",
     "text": "Tip\n\n\n\nI highly recommend checking out the channel ▶️ Milos Makes Maps on YouTube and his 😺 GitHub for tutorials on spatial data analysis and mapping in R!",
     "crumbs": [
-      "Home",
       "🏋️ Weekly assignments",
       "07 - Spatial analysis in R"
     ]
@@ -593,7 +641,6 @@
     "section": "🎯 Learning Objectives",
     "text": "🎯 Learning Objectives\nBy the end of this assignment, you will be able to:\n\nUnderstand and work with spatial data in R using the sf package.\nRead and manipulate shapefiles.\nCreate choropleth maps to visualize spatial patterns.\nCombine tabular data with spatial data for thematic mapping.\nCustomize map aesthetics, including projections and color schemes.\nDocument your spatial analysis process in a Quarto report.",
     "crumbs": [
-      "Home",
       "🏋️ Weekly assignments",
       "07 - Spatial analysis in R"
     ]
@@ -605,7 +652,6 @@
     "section": "📂 Datasets",
     "text": "📂 Datasets\nFor this assignment, you will need two types of data:\n\nSpatial Data: A shapefile with the administrative boundaries of Ukraine’s oblasts.\nTabular Data: A dataset containing some variable to visualize across the oblasts.\n\n\n\n\n\n\n\nNote\n\n\n\nYou can use any other country or region if you prefer, but make sure to adjust the instructions accordingly.\n\n\nFor the tabular data, you have three options. Choose one:\n\nOption A: Air Raid Sirens Data: Use the dataset on air raid sirens in Ukraine from this source. You will need to aggregate the data by oblast.\nOption B: State Statistics Service of Ukraine: Find a dataset of your choice on the State Statistics Service of Ukraine.\nOption C: Your Own Data: Find or create your own dataset with data for each of Ukraine’s oblasts.",
     "crumbs": [
-      "Home",
       "🏋️ Weekly assignments",
       "07 - Spatial analysis in R"
     ]
@@ -617,7 +663,6 @@
     "section": "📝 Tasks",
     "text": "📝 Tasks\n\n⚙️ Step 1: Set Up Your Project\n\nCreate a new Quarto document (.qmd) for your assignment.\nLoad the necessary libraries: sf, tidyverse, and any others you might need.\nDownload the shapefile of Ukraine’s oblasts and place it in a data subdirectory within your project.\n\n\n\n🔄 Step 2: Load and Prepare Data\n\nLoad the Spatial Data: Read the shapefile into R using sf::read_sf().\nLoad the Tabular Data: Load the tabular dataset you chose.\nData Cleaning and Preparation:\n\nClean both datasets as needed. Pay special attention to the names of the oblasts to ensure they are consistent between the two datasets for a successful join.\nIf you chose the air raid sirens data, you will need to aggregate it to the oblast level (e.g., total number of alerts, total duration).\n\nJoin the Datasets: Perform a join (e.g., left_join()) to merge your tabular data with the spatial data based on the oblast names.\n\n\n\n📊 Step 3: Create a Choropleth Map\n\nCreate a Basic Map: Use ggplot2 and geom_sf() to create a basic choropleth map of Ukraine, where the fill color of each oblast represents the value of the variable you are analyzing.\nCustomize the Map:\n\nAdd a title, subtitle, and caption.\nCustomize the color scale using scale_fill_*().\nExperiment with different map projections using coord_sf().\nAdjust the theme for a cleaner look (theme_void() is a good starting point).\n\nInterpret Your Map: Write a brief interpretation of the patterns you observe in your map. What does the map reveal about your chosen variable?",
     "crumbs": [
-      "Home",
       "🏋️ Weekly assignments",
       "07 - Spatial analysis in R"
     ]
@@ -629,7 +674,6 @@
     "section": "💡 Bonus Challenge (Optional)",
     "text": "💡 Bonus Challenge (Optional)\n\nCreate an additional map that visualizes a different variable or uses a different mapping technique (e.g., a point map, a line map).\nAdd labels to the oblasts on your map.\nFind and add major cities as points on your map.",
     "crumbs": [
-      "Home",
       "🏋️ Weekly assignments",
       "07 - Spatial analysis in R"
     ]
@@ -641,7 +685,6 @@
     "section": "📤 Submission",
     "text": "📤 Submission\nSubmit a Quarto report (.qmd and the rendered PDF or HTML document) that includes:\n\nA description of your chosen dataset.\nAll the code for loading, cleaning, and joining the data.\nThe final choropleth map.\nYour interpretation of the map.\n\nIf you render to HTML, please publish your report on Quarto Pub or GitHub Pages and include the link in your submission.",
     "crumbs": [
-      "Home",
       "🏋️ Weekly assignments",
       "07 - Spatial analysis in R"
     ]
@@ -653,7 +696,7 @@
     "section": "",
     "text": "Textbooks\n🔗 R for Data Science, 2nd Edition\n🔗 ggplot2: Elegant Graphics for Data Analysis, 3rd Edition\n🔗 Advanced R\n🔗 Spatial Data Science\n\n\nPackage documentation\n🔗 tidyverse: tidyverse.org",
     "crumbs": [
-      "Course information",
+      "👋Course information",
       "Useful links"
     ]
   },
@@ -673,10 +716,142 @@
     "href": "index.html",
     "title": "Course overview",
     "section": "",
-    "text": "This is the homepage for STAT150: R for Data Scince taught by Dr. Ihor Miropshnychenko in Autumn 2025 at Kyiv School of Economics.",
+    "text": "Welcome to the homepage for STAT150: R for Data Science. This course is taught by Dr. Ihor Miroshnychenko in Autumn 2025 at the Kyiv School of Economics.",
     "crumbs": [
-      "Course information",
+      "👋Course information",
       "Overview"
+    ]
+  },
+  {
+    "objectID": "index.html#why-learn-r",
+    "href": "index.html#why-learn-r",
+    "title": "Course overview",
+    "section": "🚀 Why learn R?",
+    "text": "🚀 Why learn R?\nData is the new language of business, economics, and science. In this course, you won’t just learn “how to code” — you will learn how to discover stories hidden within data.\nR is not just a programming language; it is a vast ecosystem designed specifically for data analysis. Whether you want to visualize economic trends, analyze marketing metrics, or automate reports, R is the industry standard tool used by companies like Google, Facebook, and Uber.\n\n\n\n\n\n\nNoteIs this course for me?\n\n\n\nYes! This course is designed for beginners. We assume no prior programming experience. We start from zero and build up to professional-grade data analysis skills using the modern “Tidyverse” approach.",
+    "crumbs": [
+      "👋Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "index.html#what-you-will-learn",
+    "href": "index.html#what-you-will-learn",
+    "title": "Course overview",
+    "section": "🎯 What you will learn",
+    "text": "🎯 What you will learn\nBy the end of this course, you will possess the toolkit to turn raw data into actionable insights. We will focus on the practical cycle of Data Science:\n\nImport: Getting data from files, databases, or APIs.\nTidy: Cleaning and organizing messy real-world data.\nTransform: Selecting, filtering, and summarizing key information.\nVisualize: Creating stunning, publication-quality graphics with ggplot2.\nCommunicate: Publishing your results using Quarto and Markdown.",
+    "crumbs": [
+      "👋Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "index.html#course-philosophy",
+    "href": "index.html#course-philosophy",
+    "title": "Course overview",
+    "section": "🛠️ Course Philosophy",
+    "text": "🛠️ Course Philosophy\nWe believe in hands-on learning. You won’t just memorize syntax; you will solve real problems. The curriculum follows the philosophy of the famous book R for Data Science by Hadley Wickham, focusing on writing code that is easy to read, easy to share, and easy to reproduce.\n\n“Data science is an exciting discipline that allows you to turn raw data into understanding, insight, and knowledge.” — Hadley Wickham",
+    "crumbs": [
+      "👋Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "index.html#logistics",
+    "href": "index.html#logistics",
+    "title": "Course overview",
+    "section": "📅 Logistics",
+    "text": "📅 Logistics\n\nInstructor: Dr. Ihor Miroshnychenko\nInstitution: Kyiv School of Economics (KSE)\nTerm: Autumn 2025\nFormat: Offline/Hybrid (check syllabus for details)\n\nReady to start your data journey? Navigate to the Syllabus tab to begin!",
+    "crumbs": [
+      "👋Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture-1.html",
+    "href": "lectures/lecture-1.html",
+    "title": "Welcome to R",
+    "section": "",
+    "text": "View slides in full screen",
+    "crumbs": [
+      "📜 Slides",
+      "01 - Introduction to R and RStudio"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture-1.html#slides",
+    "href": "lectures/lecture-1.html#slides",
+    "title": "Welcome to R",
+    "section": "",
+    "text": "View slides in full screen",
+    "crumbs": [
+      "📜 Slides",
+      "01 - Introduction to R and RStudio"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture-3.html",
+    "href": "lectures/lecture-3.html",
+    "title": "Quarto - reproducible publishing",
+    "section": "",
+    "text": "View slides in full screen",
+    "crumbs": [
+      "📜 Slides",
+      "03 - Reproducible Research with Quarto"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture-3.html#slides",
+    "href": "lectures/lecture-3.html#slides",
+    "title": "Quarto - reproducible publishing",
+    "section": "",
+    "text": "View slides in full screen",
+    "crumbs": [
+      "📜 Slides",
+      "03 - Reproducible Research with Quarto"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture-5.html",
+    "href": "lectures/lecture-5.html",
+    "title": "Webscraping",
+    "section": "",
+    "text": "View slides in full screen",
+    "crumbs": [
+      "📜 Slides",
+      "05 - Web Scraping and APIs"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture-5.html#slides",
+    "href": "lectures/lecture-5.html#slides",
+    "title": "Webscraping",
+    "section": "",
+    "text": "View slides in full screen",
+    "crumbs": [
+      "📜 Slides",
+      "05 - Web Scraping and APIs"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture-7.html",
+    "href": "lectures/lecture-7.html",
+    "title": "Spatial analysis in R",
+    "section": "",
+    "text": "View slides in full screen",
+    "crumbs": [
+      "📜 Slides",
+      "07 - Spatial Data Analysis in R"
+    ]
+  },
+  {
+    "objectID": "lectures/lecture-7.html#slides",
+    "href": "lectures/lecture-7.html#slides",
+    "title": "Spatial analysis in R",
+    "section": "",
+    "text": "View slides in full screen",
+    "crumbs": [
+      "📜 Slides",
+      "07 - Spatial Data Analysis in R"
     ]
   }
 ]

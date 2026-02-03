@@ -1,0 +1,11 @@
+---
+title: Advanced imports and data manipulations
+---
+
+## Slides
+
+[View slides in full screen](https://aranaur.quarto.pub/advanced-imports-and-data-manipulations-5ff6)
+
+```{=html}
+<iframe class="slide-deck" src="https://aranaur.quarto.pub/advanced-imports-and-data-manipulations-5ff6" height="420" width="747" style="border: 1px solid #581B39;"></iframe>
+```

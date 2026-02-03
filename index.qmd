@@ -2,9 +2,40 @@
 title: "Course overview"
 ---
 
-This is the homepage for STAT150: R for Data Scince taught by [Dr. Ihor Miropshnychenko](https://aranaur.rbind.io/) in Autumn 2025 at Kyiv School of Economics.
+Welcome to the homepage for **STAT150: R for Data Science**. This course is taught by [Dr. Ihor Miroshnychenko](https://aranaur.rbind.io/) in Autumn 2025 at the Kyiv School of Economics.
 
+## 🚀 Why learn R?
 
+Data is the new language of business, economics, and science. In this course, you won't just learn "how to code" --- you will learn how to **discover stories hidden within data**.
 
+R is not just a programming language; it is a vast ecosystem designed specifically for data analysis. Whether you want to visualize economic trends, analyze marketing metrics, or automate reports, R is the industry standard tool used by companies like Google, Facebook, and Uber.
 
+::: {.callout-note}
+## Is this course for me?
+**Yes!** This course is designed for beginners. We assume **no prior programming experience**. We start from zero and build up to professional-grade data analysis skills using the modern "Tidyverse" approach.
+:::
 
+## 🎯 What you will learn
+
+By the end of this course, you will possess the toolkit to turn raw data into actionable insights. We will focus on the practical cycle of Data Science:
+
+*   **Import:** Getting data from files, databases, or APIs.
+*   **Tidy:** Cleaning and organizing messy real-world data.
+*   **Transform:** Selecting, filtering, and summarizing key information.
+*   **Visualize:** Creating stunning, publication-quality graphics with `ggplot2`.
+*   **Communicate:** Publishing your results using Quarto and Markdown.
+
+## 🛠️ Course Philosophy
+
+We believe in **hands-on learning**. You won't just memorize syntax; you will solve real problems. The curriculum follows the philosophy of the famous book *R for Data Science* by Hadley Wickham, focusing on writing code that is easy to read, easy to share, and easy to reproduce.
+
+> "Data science is an exciting discipline that allows you to turn raw data into understanding, insight, and knowledge." — *Hadley Wickham*
+
+## 📅 Logistics
+
+*   **Instructor:** [Dr. Ihor Miroshnychenko](https://aranaur.rbind.io/)
+*   **Institution:** Kyiv School of Economics (KSE)
+*   **Term:** Autumn 2025
+*   **Format:** Offline/Hybrid (check syllabus for details)
+
+Ready to start your data journey? Navigate to the **Syllabus** tab to begin!

@@ -37,10 +37,28 @@ website:
             text: Syllabus
           - href: course-team.qmd
             text: Teaching team
-          - href: schedule.qmd
-            text: Schedule
+          # - href: schedule.qmd
+          #   text: Schedule
           - href: course-links.qmd
             text: Useful links
+      - section: "📜 Slides"
+        contents:          
+          - href: lectures/lecture-0.qmd
+            text: 00 - Hello there!
+          - href: lectures/lecture-1.qmd
+            text: 01 - Introduction to R and RStudio
+          - href: lectures/lecture-2.qmd
+            text: 02 - Data Wrangling with Tidyverse
+          - href: lectures/lecture-3.qmd
+            text: 03 - Reproducible Research with Quarto
+          - href: lectures/lecture-4.qmd
+            text: 04 - Data Visualization with ggplot2
+          - href: lectures/lecture-5.qmd
+            text: 05 - Web Scraping and APIs
+          - href: lectures/lecture-6.qmd
+            text: 06 - Advanced Data Manipulation
+          - href: lectures/lecture-7.qmd
+            text: 07 - Spatial Data Analysis in R
       - section: "🏋️ Weekly assignments"
         contents:
           - href: assignments/lab-1.qmd
@@ -52,7 +70,7 @@ website:
           - href: assignments/lab-4.qmd
             text: 04 - Data Visualization with ggplot2
           - href: assignments/lab-5.qmd
-            text: 05 - Web scraping and APIs
+            text: 05 - Web Scraping and APIs
           - href: assignments/lab-6.qmd
             text: 06 - Advanced Imports and Data Manipulations
           - href: assignments/lab-7.qmd

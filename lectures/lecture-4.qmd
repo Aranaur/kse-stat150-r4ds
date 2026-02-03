@@ -1,0 +1,11 @@
+---
+title: Data visualization - ggplot2 and beyond
+---
+
+## Slides
+
+[View slides in full screen](https://aranaur.quarto.pub/data-visualization-ggplot2-and-beyond/)
+
+```{=html}
+<iframe class="slide-deck" src="https://aranaur.quarto.pub/data-visualization-ggplot2-and-beyond/" height="420" width="747" style="border: 1px solid #581B39;"></iframe>
+```

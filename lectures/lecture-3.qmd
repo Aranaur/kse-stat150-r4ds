@@ -1,0 +1,11 @@
+---
+title: Quarto - reproducible publishing
+---
+
+## Slides
+
+[View slides in full screen](https://aranaur.quarto.pub/quarto-reproducible-publishing/)
+
+```{=html}
+<iframe class="slide-deck" src="https://aranaur.quarto.pub/quarto-reproducible-publishing/" height="420" width="747" style="border: 1px solid #581B39;"></iframe>
+```
