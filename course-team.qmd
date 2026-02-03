@@ -3,7 +3,7 @@ title: "Instructor"
 format: html
 ---
 
-![](images/miv.png){style="float:right;padding: 0 0 0 20px; border-radius: 10px;" fig-alt="Headshot of Dr. Ihor Miroshnychenko" width="250"}
+![](images/miv.png){.float-md-end .ms-md-4 fig-align="center" width="250" style="border-radius: 10px;" fig-alt="Headshot of Dr. Ihor Miroshnychenko"}
 
 ### **Dr. Ihor Miroshnychenko**
 

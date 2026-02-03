@@ -38,7 +38,7 @@ We believe in **hands-on learning**. You won't just memorize syntax; you will so
 *   **Instructor:** [Dr. Ihor Miroshnychenko](https://aranaur.rbind.io/)
 *   **Institution:** Kyiv School of Economics (KSE)
 *   **Term:** Autumn 2025
-*   **Format:** Offline/Hybrid (check syllabus for details)
+*   **Format:** Offline
 
 Ready to start your data journey? Navigate to the **Syllabus** tab to begin!
 
