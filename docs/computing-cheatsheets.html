@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Course overview – STAT150: R for Data Science</title>
+<title>R cheatsheets – STAT150: R for Data Science</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -41,11 +41,11 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-03c9ff5e371b30f3486ac76f7f733d71.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
+  "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
+  "panel-placement": "end",
+  "type": "overlay",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -71,16 +71,43 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-sidebar docked quarto-light">
+<body class="nav-sidebar docked nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">STAT150: R for Data Science</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Course information</a></li><li class="breadcrumb-item"><a href="./index.html">Overview</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./computing-cheatsheets.html">✏️Cheatsheets</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -90,7 +117,7 @@ ul.task-list li input[type="checkbox"] {
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
@@ -112,16 +139,16 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
  <span class="menu-text">Course information</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Overview</span></a>
   </div>
 </li>
@@ -212,7 +239,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./computing-cheatsheets.html" class="sidebar-item-text sidebar-link">
+  <a href="./computing-cheatsheets.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">✏️Cheatsheets</span></a>
   </div>
 </li>
@@ -233,9 +260,9 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Course information</a></li><li class="breadcrumb-item"><a href="./index.html">Overview</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Course overview</h1>
+<h1 class="title">R cheatsheets</h1>
 </div>
 
 
@@ -252,7 +279,58 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This is the homepage for STAT150: R for Data Scince taught by <a href="https://aranaur.rbind.io/">Dr.&nbsp;Ihor Miropshnychenko</a> in Autumn 2025 at Kyiv School of Economics.</p>
+<p>The following cheatsheets come from <a href="https://posit.co/resources/cheatsheets" class="uri">https://posit.co/resources/cheatsheets</a>. We haven’t covered every function and functionality listed on them, but you might still find them useful as references.</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><a href="https://raw.githubusercontent.com/rstudio/cheatsheets/main/data-visualization.pdf"><img src="cheatsheets/data-visualization.png" class="img-fluid quarto-figure quarto-figure-left figure-img" alt="ggplot2 cheat sheet" width="300"></a></p>
+</figure>
+</div>
+<p><br></p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><a href="https://raw.githubusercontent.com/rstudio/cheatsheets/main/tidyr.pdf"><img src="cheatsheets/tidyr.png" class="img-fluid quarto-figure quarto-figure-left figure-img" alt="ggplot2 cheat sheet" width="300"></a></p>
+</figure>
+</div>
+<p><br></p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><a href="https://raw.githubusercontent.com/rstudio/cheatsheets/main/strings.pdf"><img src="cheatsheets/strings.png" class="img-fluid quarto-figure quarto-figure-left figure-img" alt="ggplot2 cheat sheet" width="300"></a></p>
+</figure>
+</div>
+<p><br></p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><a href="https://raw.githubusercontent.com/rstudio/cheatsheets/main/lubridate.pdf"><img src="cheatsheets/lubridate.png" class="img-fluid quarto-figure quarto-figure-left figure-img" alt="ggplot2 cheat sheet" width="300"></a></p>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-right">
+<figure class="figure">
+<p><a href="https://raw.githubusercontent.com/rstudio/cheatsheets/main/data-transformation.pdf"><img src="cheatsheets/data-transformation.png" class="img-fluid quarto-figure quarto-figure-right figure-img" alt="ggplot2 cheat sheet" width="300"></a></p>
+</figure>
+</div>
+<p><br></p>
+<div class="quarto-figure quarto-figure-right">
+<figure class="figure">
+<p><a href="https://raw.githubusercontent.com/rstudio/cheatsheets/main/data-import.pdf"><img src="cheatsheets/data-import.png" class="img-fluid quarto-figure quarto-figure-right figure-img" alt="ggplot2 cheat sheet" width="300"></a></p>
+</figure>
+</div>
+<p><br></p>
+<div class="quarto-figure quarto-figure-right">
+<figure class="figure">
+<p><a href="https://raw.githubusercontent.com/rstudio/cheatsheets/main/factors.pdf"><img src="cheatsheets/factors.png" class="img-fluid quarto-figure quarto-figure-right figure-img" alt="ggplot2 cheat sheet" width="300"></a></p>
+</figure>
+</div>
+<p><br></p>
+<div class="quarto-figure quarto-figure-right">
+<figure class="figure">
+<p><a href="https://raw.githubusercontent.com/rstudio/cheatsheets/main/rstudio-ide.pdf"><img src="cheatsheets/rstudio-ide.png" class="img-fluid quarto-figure quarto-figure-right figure-img" alt="ggplot2 cheat sheet" width="300"></a></p>
+</figure>
+</div>
+</div>
+</div>
 
 
 
@@ -665,7 +743,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/aranaur/kse-stat150-r4ds.github.io/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/aranaur/kse-stat150-r4ds.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions"><ul><li><a href="https://github.com/aranaur/kse-stat150-r4ds.github.io/edit/main/computing-cheatsheets.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/aranaur/kse-stat150-r4ds.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with 🤍 and <a href="https://quarto.org/">Quarto</a>.</p>
 </div>

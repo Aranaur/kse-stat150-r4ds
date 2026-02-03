@@ -30,7 +30,7 @@ Find me on the web or send a signal:
 * {{< iconify material-icon-theme:email >}} **Email:** `imiroshnychenko@kse.org.ua`
 * {{< iconify streamline-plump-color:web >}} **Web:** [aranaur.rbind.io](https://aranaur.rbind.io)
 * {{< iconify mdi:github >}} **GitHub:** [`@aranaur`](https://github.com/aranaur)
-* {{< iconify logos:telegram >}} **Telegram** [@araprof](https://t.me/araprof)
+* {{< iconify logos:telegram >}} **Telegram** [`@araprof`](https://t.me/araprof)
 * {{< iconify logos:linkedin-icon >}} **LinkedIn:** [`ihormiroshnychenko`](https://linkedin.com/in/ihormiroshnychenko)
 
 ---

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Course overview – STAT150: R for Data Science</title>
+<title>Assignment 07: Spatial analysis in R – STAT150: R for Data Science</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,29 +23,29 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-03c9ff5e371b30f3486ac76f7f733d71.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-03c9ff5e371b30f3486ac76f7f733d71.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
+  "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
+  "panel-placement": "end",
+  "type": "overlay",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -71,16 +71,43 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-sidebar docked quarto-light">
+<body class="nav-sidebar docked nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">STAT150: R for Data Science</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="../index.html" aria-current="page"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Course information</a></li><li class="breadcrumb-item"><a href="./index.html">Overview</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../assignments/lab-1.html">🏋️ Weekly assignments</a></li><li class="breadcrumb-item"><a href="../assignments/lab-7.html">07 - Spatial analysis in R</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -90,13 +117,13 @@ ul.task-list li input[type="checkbox"] {
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
-      <a href="./index.html" class="sidebar-logo-link">
-      <img src="./images/logo.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
-      <img src="./images/logo.png" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
+      <a href="../index.html" class="sidebar-logo-link">
+      <img src="../images/logo.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
+      <img src="../images/logo.png" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main">
     <a href="https://teaching.kse.org.ua/course/view.php?id=3374" title="Moodle" class="quarto-navigation-tool px-1" aria-label="Moodle"><i class="bi bi-moodle"></i></a>
@@ -112,40 +139,40 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
  <span class="menu-text">Course information</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Overview</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./course-syllabus.html" class="sidebar-item-text sidebar-link">
+  <a href="../course-syllabus.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Syllabus</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./course-team.html" class="sidebar-item-text sidebar-link">
+  <a href="../course-team.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Teaching team</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./schedule.html" class="sidebar-item-text sidebar-link">
+  <a href="../schedule.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Schedule</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./course-links.html" class="sidebar-item-text sidebar-link">
+  <a href="../course-links.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Useful links</span></a>
   </div>
 </li>
@@ -153,52 +180,52 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
  <span class="menu-text">🏋️ Weekly assignments</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./assignments/lab-1.html" class="sidebar-item-text sidebar-link">
+  <a href="../assignments/lab-1.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">01 - Welcome to R</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./assignments/lab-2.html" class="sidebar-item-text sidebar-link">
+  <a href="../assignments/lab-2.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">02 - Data Wrangling &amp; Tidying with Tidyverse</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./assignments/lab-3.html" class="sidebar-item-text sidebar-link">
+  <a href="../assignments/lab-3.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">03 - Reproducible publishing with Quarto</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./assignments/lab-4.html" class="sidebar-item-text sidebar-link">
+  <a href="../assignments/lab-4.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">04 - Data Visualization with ggplot2</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./assignments/lab-5.html" class="sidebar-item-text sidebar-link">
+  <a href="../assignments/lab-5.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">05 - Web scraping and APIs</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./assignments/lab-6.html" class="sidebar-item-text sidebar-link">
+  <a href="../assignments/lab-6.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">06 - Advanced Imports and Data Manipulations</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./assignments/lab-7.html" class="sidebar-item-text sidebar-link">
+  <a href="../assignments/lab-7.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">07 - Spatial analysis in R</span></a>
   </div>
 </li>
@@ -206,19 +233,19 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./final-project.html" class="sidebar-item-text sidebar-link">
+  <a href="../final-project.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">🛠️Final Project</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./computing-cheatsheets.html" class="sidebar-item-text sidebar-link">
+  <a href="../computing-cheatsheets.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">✏️Cheatsheets</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./extra-credit.qmd" class="sidebar-item-text sidebar-link">
+  <a href="../extra-credit.qmd" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Extra credit</span></a>
   </div>
 </li>
@@ -227,15 +254,30 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link active" data-scroll-target="#learning-objectives">🎯 Learning Objectives</a></li>
+  <li><a href="#datasets" id="toc-datasets" class="nav-link" data-scroll-target="#datasets">📂 Datasets</a></li>
+  <li><a href="#tasks" id="toc-tasks" class="nav-link" data-scroll-target="#tasks">📝 Tasks</a>
+  <ul class="collapse">
+  <li><a href="#step-1-set-up-your-project" id="toc-step-1-set-up-your-project" class="nav-link" data-scroll-target="#step-1-set-up-your-project">⚙️ Step 1: Set Up Your Project</a></li>
+  <li><a href="#step-2-load-and-prepare-data" id="toc-step-2-load-and-prepare-data" class="nav-link" data-scroll-target="#step-2-load-and-prepare-data">🔄 Step 2: Load and Prepare Data</a></li>
+  <li><a href="#step-3-create-a-choropleth-map" id="toc-step-3-create-a-choropleth-map" class="nav-link" data-scroll-target="#step-3-create-a-choropleth-map">📊 Step 3: Create a Choropleth Map</a></li>
+  </ul></li>
+  <li><a href="#bonus-challenge-optional" id="toc-bonus-challenge-optional" class="nav-link" data-scroll-target="#bonus-challenge-optional">💡 Bonus Challenge (Optional)</a></li>
+  <li><a href="#submission" id="toc-submission" class="nav-link" data-scroll-target="#submission">📤 Submission</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/aranaur/kse-stat150-r4ds.github.io/edit/main/assignments/lab-7.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/aranaur/kse-stat150-r4ds.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Course information</a></li><li class="breadcrumb-item"><a href="./index.html">Overview</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../assignments/lab-1.html">🏋️ Weekly assignments</a></li><li class="breadcrumb-item"><a href="../assignments/lab-7.html">07 - Spatial analysis in R</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Course overview</h1>
+<h1 class="title">Assignment 07: Spatial analysis in R</h1>
 </div>
 
 
@@ -252,9 +294,117 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This is the homepage for STAT150: R for Data Scince taught by <a href="https://aranaur.rbind.io/">Dr.&nbsp;Ihor Miropshnychenko</a> in Autumn 2025 at Kyiv School of Economics.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>I highly recommend checking out the channel <a href="https://www.youtube.com/@milos-makes-maps/videos">▶️ Milos Makes Maps</a> on YouTube and his <a href="https://github.com/milos-agathon">😺 GitHub</a> for tutorials on spatial data analysis and mapping in R!</p>
+</div>
+</div>
+<section id="learning-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="learning-objectives">🎯 Learning Objectives</h2>
+<p>By the end of this assignment, you will be able to:</p>
+<ul>
+<li>Understand and work with spatial data in R using the <code>sf</code> package.</li>
+<li>Read and manipulate shapefiles.</li>
+<li>Create choropleth maps to visualize spatial patterns.</li>
+<li>Combine tabular data with spatial data for thematic mapping.</li>
+<li>Customize map aesthetics, including projections and color schemes.</li>
+<li>Document your spatial analysis process in a Quarto report.</li>
+</ul>
+</section>
+<section id="datasets" class="level2">
+<h2 class="anchored" data-anchor-id="datasets">📂 Datasets</h2>
+<p>For this assignment, you will need two types of data:</p>
+<ol type="1">
+<li><strong>Spatial Data</strong>: A shapefile with the administrative boundaries of Ukraine’s oblasts.</li>
+<li><strong>Tabular Data</strong>: A dataset containing some variable to visualize across the oblasts.</li>
+</ol>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>You can use any other country or region if you prefer, but make sure to adjust the instructions accordingly.</p>
+</div>
+</div>
+<p>For the tabular data, you have three options. Choose <strong>one</strong>:</p>
+<ul>
+<li><strong>Option A: Air Raid Sirens Data</strong>: Use the dataset on air raid sirens in Ukraine from <a href="https://alerts.in.ua/">this source</a>. You will need to aggregate the data by oblast.</li>
+<li><strong>Option B: State Statistics Service of Ukraine</strong>: Find a dataset of your choice on the <a href="https://stat.gov.ua/en">State Statistics Service of Ukraine</a>.</li>
+<li><strong>Option C: Your Own Data</strong>: Find or create your own dataset with data for each of Ukraine’s oblasts.</li>
+</ul>
+</section>
+<section id="tasks" class="level2">
+<h2 class="anchored" data-anchor-id="tasks">📝 Tasks</h2>
+<section id="step-1-set-up-your-project" class="level3">
+<h3 class="anchored" data-anchor-id="step-1-set-up-your-project">⚙️ Step 1: Set Up Your Project</h3>
+<ol type="1">
+<li>Create a new Quarto document (<code>.qmd</code>) for your assignment.</li>
+<li>Load the necessary libraries: <code>sf</code>, <code>tidyverse</code>, and any others you might need.</li>
+<li>Download the shapefile of Ukraine’s oblasts and place it in a <code>data</code> subdirectory within your project.</li>
+</ol>
+</section>
+<section id="step-2-load-and-prepare-data" class="level3">
+<h3 class="anchored" data-anchor-id="step-2-load-and-prepare-data">🔄 Step 2: Load and Prepare Data</h3>
+<ol type="1">
+<li><strong>Load the Spatial Data</strong>: Read the shapefile into R using <code>sf::read_sf()</code>.</li>
+<li><strong>Load the Tabular Data</strong>: Load the tabular dataset you chose.</li>
+<li><strong>Data Cleaning and Preparation</strong>:
+<ul>
+<li>Clean both datasets as needed. Pay special attention to the names of the oblasts to ensure they are consistent between the two datasets for a successful join.</li>
+<li>If you chose the air raid sirens data, you will need to aggregate it to the oblast level (e.g., total number of alerts, total duration).</li>
+</ul></li>
+<li><strong>Join the Datasets</strong>: Perform a join (e.g., <code>left_join()</code>) to merge your tabular data with the spatial data based on the oblast names.</li>
+</ol>
+</section>
+<section id="step-3-create-a-choropleth-map" class="level3">
+<h3 class="anchored" data-anchor-id="step-3-create-a-choropleth-map">📊 Step 3: Create a Choropleth Map</h3>
+<ol type="1">
+<li><strong>Create a Basic Map</strong>: Use <code>ggplot2</code> and <code>geom_sf()</code> to create a basic choropleth map of Ukraine, where the fill color of each oblast represents the value of the variable you are analyzing.</li>
+<li><strong>Customize the Map</strong>:
+<ul>
+<li>Add a title, subtitle, and caption.</li>
+<li>Customize the color scale using <code>scale_fill_*()</code>.</li>
+<li>Experiment with different map projections using <code>coord_sf()</code>.</li>
+<li>Adjust the theme for a cleaner look (<code>theme_void()</code> is a good starting point).</li>
+</ul></li>
+<li><strong>Interpret Your Map</strong>: Write a brief interpretation of the patterns you observe in your map. What does the map reveal about your chosen variable?</li>
+</ol>
+</section>
+</section>
+<section id="bonus-challenge-optional" class="level2">
+<h2 class="anchored" data-anchor-id="bonus-challenge-optional">💡 Bonus Challenge (Optional)</h2>
+<ul>
+<li>Create an additional map that visualizes a different variable or uses a different mapping technique (e.g., a point map, a line map).</li>
+<li>Add labels to the oblasts on your map.</li>
+<li>Find and add major cities as points on your map.</li>
+</ul>
+</section>
+<section id="submission" class="level2">
+<h2 class="anchored" data-anchor-id="submission">📤 Submission</h2>
+<p>Submit a Quarto report (<code>.qmd</code> and the rendered PDF or HTML document) that includes:</p>
+<ul>
+<li>A description of your chosen dataset.</li>
+<li>All the code for loading, cleaning, and joining the data.</li>
+<li>The final choropleth map.</li>
+<li>Your interpretation of the map.</li>
+</ul>
+<p>If you render to HTML, please publish your report on Quarto Pub or GitHub Pages and include the link in your submission.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -665,7 +815,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/aranaur/kse-stat150-r4ds.github.io/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/aranaur/kse-stat150-r4ds.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/aranaur/kse-stat150-r4ds.github.io/edit/main/assignments/lab-7.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/aranaur/kse-stat150-r4ds.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with 🤍 and <a href="https://quarto.org/">Quarto</a>.</p>
 </div>

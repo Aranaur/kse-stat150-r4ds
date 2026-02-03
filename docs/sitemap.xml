@@ -2,19 +2,59 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://kse-stat150-r4ds.github.io/schedule.html</loc>
-    <lastmod>2026-02-03T10:42:40.992Z</lastmod>
+    <lastmod>2026-02-03T11:03:49.443Z</lastmod>
   </url>
   <url>
-    <loc>https://kse-stat150-r4ds.github.io/course-team.html</loc>
-    <lastmod>2026-02-03T10:37:35.677Z</lastmod>
+    <loc>https://kse-stat150-r4ds.github.io/final-project.html</loc>
+    <lastmod>2026-02-03T11:54:39.590Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kse-stat150-r4ds.github.io/course-syllabus.html</loc>
+    <lastmod>2026-02-03T10:24:34.380Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kse-stat150-r4ds.github.io/computing-cheatsheets.html</loc>
+    <lastmod>2026-02-03T11:28:42.687Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kse-stat150-r4ds.github.io/assignments/lab-6.html</loc>
+    <lastmod>2026-02-03T11:48:31.495Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kse-stat150-r4ds.github.io/assignments/lab-4.html</loc>
+    <lastmod>2026-02-03T11:48:03.900Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kse-stat150-r4ds.github.io/assignments/lab-2.html</loc>
+    <lastmod>2026-02-03T11:47:32.895Z</lastmod>
   </url>
   <url>
     <loc>https://kse-stat150-r4ds.github.io/about.html</loc>
     <lastmod>2026-02-02T19:31:28.687Z</lastmod>
   </url>
   <url>
-    <loc>https://kse-stat150-r4ds.github.io/course-syllabus.html</loc>
-    <lastmod>2026-02-03T10:24:34.380Z</lastmod>
+    <loc>https://kse-stat150-r4ds.github.io/assignments/lab-1.html</loc>
+    <lastmod>2026-02-03T11:46:53.457Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kse-stat150-r4ds.github.io/assignments/lab-3.html</loc>
+    <lastmod>2026-02-03T11:47:48.516Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kse-stat150-r4ds.github.io/assignments/lab-5.html</loc>
+    <lastmod>2026-02-03T11:48:18.529Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kse-stat150-r4ds.github.io/assignments/lab-7.html</loc>
+    <lastmod>2026-02-03T11:48:45.361Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kse-stat150-r4ds.github.io/course-links.html</loc>
+    <lastmod>2026-02-03T11:17:02.084Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kse-stat150-r4ds.github.io/course-team.html</loc>
+    <lastmod>2026-02-03T12:02:00.234Z</lastmod>
   </url>
   <url>
     <loc>https://kse-stat150-r4ds.github.io/index.html</loc>
