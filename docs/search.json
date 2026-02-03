@@ -767,6 +767,17 @@
     ]
   },
   {
+    "objectID": "index.html#course-identity",
+    "href": "index.html#course-identity",
+    "title": "Course overview",
+    "section": "🎨 Course Identity",
+    "text": "🎨 Course Identity\nIn the spirit of reproducible research, the visual identity for this course is created entirely using code! You can explore the collection of generated KSE course stickers in this GitHub repository.\nCurious how the logo above was created? Click to reveal the source code.",
+    "crumbs": [
+      "👋Course information",
+      "Overview"
+    ]
+  },
+  {
     "objectID": "lectures/lecture-1.html",
     "href": "lectures/lecture-1.html",
     "title": "Welcome to R",

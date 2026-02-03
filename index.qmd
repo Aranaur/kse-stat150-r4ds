@@ -2,6 +2,8 @@
 title: "Course overview"
 ---
 
+![](images/logo.png){style="float:right;padding: 0 0 0 20px; border-radius: 10px;" fig-alt="STAT150" width="250"}
+
 Welcome to the homepage for **STAT150: R for Data Science**. This course is taught by [Dr. Ihor Miroshnychenko](https://aranaur.rbind.io/) in Autumn 2025 at the Kyiv School of Economics.
 
 ## 🚀 Why learn R?
@@ -39,3 +41,9 @@ We believe in **hands-on learning**. You won't just memorize syntax; you will so
 *   **Format:** Offline/Hybrid (check syllabus for details)
 
 Ready to start your data journey? Navigate to the **Syllabus** tab to begin!
+
+## 🎨 Course Identity
+
+In the spirit of **reproducible research**, the visual identity for this course is created entirely using code! You can explore the collection of generated KSE course stickers in this [GitHub repository](https://github.com/Aranaur/kse-hex-stickers).
+
+Curious how the logo above was created? [Click](https://github.com/Aranaur/kse-hex-stickers/blob/main/R/stat150-25.R) to reveal the source code.
