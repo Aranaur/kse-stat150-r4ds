@@ -1,0 +1,10 @@
+---
+title: "Course overview"
+---
+
+This is the homepage for STAT150: R for Data Scince taught by [Dr. Ihor Miropshnychenko](https://aranaur.rbind.io/) in Autumn 2025 at Kyiv School of Economics.
+
+
+
+
+

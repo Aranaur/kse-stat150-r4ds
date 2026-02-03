@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.26">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Syllabus – STAT150: R for Data Science</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-03c9ff5e371b30f3486ac76f7f733d71.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
+
+
+</head>
+
+<body class="nav-sidebar docked nav-fixed slimcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">STAT150: R for Data Science</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Course information</a></li><li class="breadcrumb-item"><a href="./course-syllabus.html">Syllabus</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-center sidebar-header">
+      <a href="./index.html" class="sidebar-logo-link">
+      <img src="./images/logo.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
+      <img src="./images/logo.png" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
+      </a>
+      <div class="sidebar-tools-main">
+    <a href="https://teaching.kse.org.ua/course/view.php?id=3374" title="Moodle" class="quarto-navigation-tool px-1" aria-label="Moodle"><i class="bi bi-moodle"></i></a>
+    <a href="https://github.com/aranaur/kse-stat150-r4ds.github.io" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+</div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Course information</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Overview</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./course-syllabus.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Syllabus</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./course-team.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Teaching team</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./schedule.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Schedule</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./course-links.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Useful links</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">Labs</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./labs/lab-1.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lab 1</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./labs/lab-2.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lab 2</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./labs/lab-3.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lab 3</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./labs/lab-4.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lab 4</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./labs/lab-5.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lab 5</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./labs/lab-6.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lab 6</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./labs/lab-7.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lab 7</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./labs/lab-8.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lab 8</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Projects</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./project/project-1.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Project 1</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+ <span class="menu-text">Computing</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./computing/computing-access.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Access</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./computing/computing-troubleshooting.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Troubleshooting</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./computing/computing-cheatsheets.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cheatsheets</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./extra-credit.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Extra credit</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#welcome-to-our-expedition" id="toc-welcome-to-our-expedition" class="nav-link active" data-scroll-target="#welcome-to-our-expedition">🧭Welcome to Our Expedition!</a>
+  <ul class="collapse">
+  <li><a href="#history-of-the-expedition" id="toc-history-of-the-expedition" class="nav-link" data-scroll-target="#history-of-the-expedition">🪶History of the Expedition</a></li>
+  <li><a href="#the-mystery-of-the-expedition" id="toc-the-mystery-of-the-expedition" class="nav-link" data-scroll-target="#the-mystery-of-the-expedition">🤫The Mystery of the Expedition</a></li>
+  <li><a href="#what-to-pack-for-the-expedition" id="toc-what-to-pack-for-the-expedition" class="nav-link" data-scroll-target="#what-to-pack-for-the-expedition">✔️What to Pack for the Expedition</a></li>
+  <li><a href="#expedition-goals" id="toc-expedition-goals" class="nav-link" data-scroll-target="#expedition-goals">🎯Expedition Goals</a></li>
+  <li><a href="#expedition-results" id="toc-expedition-results" class="nav-link" data-scroll-target="#expedition-results">🏆Expedition Results:</a></li>
+  <li><a href="#what-awaits-us" id="toc-what-awaits-us" class="nav-link" data-scroll-target="#what-awaits-us">🛣️What Awaits Us?</a></li>
+  </ul></li>
+  <li><a href="#biography-of-our-guide" id="toc-biography-of-our-guide" class="nav-link" data-scroll-target="#biography-of-our-guide">🐧Biography of Our Guide</a></li>
+  <li><a href="#expedition-survival-rules" id="toc-expedition-survival-rules" class="nav-link" data-scroll-target="#expedition-survival-rules">🧊Expedition Survival Rules</a></li>
+  <li><a href="#our-journey-route" id="toc-our-journey-route" class="nav-link" data-scroll-target="#our-journey-route">🔀Our Journey Route</a>
+  <ul class="collapse">
+  <li><a href="#expedition-logbook-route-details" id="toc-expedition-logbook-route-details" class="nav-link" data-scroll-target="#expedition-logbook-route-details">📖Expedition Logbook: Route Details</a></li>
+  </ul></li>
+  <li><a href="#our-base-camp" id="toc-our-base-camp" class="nav-link" data-scroll-target="#our-base-camp">🏕️Our Base Camp</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/aranaur/kse-stat150-r4ds.github.io/edit/main/course-syllabus.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/aranaur/kse-stat150-r4ds.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Course information</a></li><li class="breadcrumb-item"><a href="./course-syllabus.html">Syllabus</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Syllabus</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="welcome-to-our-expedition" class="level1 page-columns page-full">
+<h1>🧭Welcome to Our Expedition!</h1>
+<p>Welcome, young explorers!</p>
+<p>This semester, we are setting off on a thrilling scientific expedition to the icy shores of Antarctica. Our lead guide is an experienced polar explorer, a penguin named <strong>Pipe</strong><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. He knows everything about data, because his whole life is data: the length of his beak, his wingspan, and even his favorite type of fish!</p>
+<div class="no-row-height column-margin column-container"><div id="fn1"><p><sup>1</sup>&nbsp;He got his name for his amazing ability to combine different actions into one smooth and logical flow, as if passing data through an invisible “pipeline” (<code>|&gt;</code>). This is the approach he wants to pass on to you!</p></div></div><p>Our mission is to learn the R language to understand penguins, analyze their lives, and present our findings to the world. Forget about boring lectures. We have <strong>campfire briefings</strong>, <strong>field research</strong>, and a final <strong>Grand Penguin Gala Presentation</strong> awaiting us!</p>
+<section id="history-of-the-expedition" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="history-of-the-expedition">🪶History of the Expedition</h2>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><img src="img/penguin_research.png" class="img-fluid"></p>
+</div></div><p>Once upon a time, in faraway Antarctica, penguins lived their quiet lives until the first explorers arrived and started collecting data on their behavior. Over time, this data turned into massive sets of information that needed analysis. That was when Pipe appeared, a researcher penguin who learned to use R to understand his world. Now Pipe wants to share his knowledge with you so that you can help him uncover the secrets of penguin life.</p>
+</section>
+<section id="the-mystery-of-the-expedition" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="the-mystery-of-the-expedition">🤫The Mystery of the Expedition</h2>
+<p>Lately, Pipe has noticed something strange. The population of his favorite fish, the ice sardine, has started to decline sharply near the coast. What is happening? Is it climate change? A new predator? Or perhaps the fish have simply migrated?</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><img src="img/secret.png" class="img-fluid"></p>
+</div></div><p><strong>Our mission</strong> is to use the full power of R to analyze data on water temperature, ocean currents, the activity of other animals, and find the answer. The final project will serve as your report to the International Penguin Council, where you will present your findings and save the future of the ice sardines!</p>
+</section>
+<section id="what-to-pack-for-the-expedition" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="what-to-pack-for-the-expedition">✔️What to Pack for the Expedition</h2>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><img src="img/packing.png" class="img-fluid"></p>
+</div></div><ul>
+<li>🧠 An open mind and a thirst for knowledge.</li>
+<li>🤓 A desire to experiment and no fear of making mistakes.</li>
+<li>🤝 Readiness to work in a team and share ideas.</li>
+<li>🧥 Comfortable clothing for cold weather (metaphorically—a comfortable working environment on your computer).</li>
+</ul>
+</section>
+<section id="expedition-goals" class="level2">
+<h2 class="anchored" data-anchor-id="expedition-goals">🎯Expedition Goals</h2>
+<ul>
+<li>Master the basics of programming in R and using RStudio.</li>
+<li>Learn to collect, clean, and analyze data.</li>
+<li>Develop data visualization skills using ggplot2.</li>
+<li>Prepare and present your own research in the form of a Quarto report.</li>
+</ul>
+</section>
+<section id="expedition-results" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="expedition-results">🏆Expedition Results:</h2>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><img src="img/results.png" class="img-fluid"></p>
+</div></div><ul>
+<li>You will be able to confidently write code in R for data analysis.</li>
+<li>You will learn to create informative visualizations.</li>
+<li>You will gain experience working with real datasets.</li>
+<li>You will be able to present your findings in the form of a professional report.</li>
+</ul>
+</section>
+<section id="what-awaits-us" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="what-awaits-us">🛣️What Awaits Us?</h2>
+<p>Our route includes several exciting stages:</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><img src="img/journey.png" class="img-fluid"></p>
+</div></div><ul>
+<li>🔥<strong>Campfire Briefings (Lectures):</strong> Here, our lead guide (the instructor) and Pipe will share wisdom: showing maps, teaching how to use tools (R and RStudio), and telling stories about great discoveries in the world of data.</li>
+<li>🧪<strong>Field Research (Practical Labs):</strong> Time to get your hands dirty! We will go out onto the “ice floes” (real datasets), learn to clean snow off the data, build charts that shine like the aurora borealis, and make our own discoveries.</li>
+<li>📈<strong>Weekly Expedition Reports (Homework):</strong> Every explorer keeps a logbook. You will document your findings, write code, and share results in the format of Quarto reports.</li>
+<li>🎊<strong>Grand Penguin Gala Presentation (Final Project):</strong> The culmination of our journey! You (solo or in a team) will present your own research—from data collection to final conclusions—before the esteemed council of penguins (and the instructor).</li>
+</ul>
+</section>
+</section>
+<section id="biography-of-our-guide" class="level1 page-columns page-full">
+<h1>🐧Biography of Our Guide</h1>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><img src="img/pipe.png" class="img-fluid"></p>
+</div></div><p><strong>Pipe</strong> is not just a penguin. He is a true explorer with a passion for data! Born on the icy shores of Antarctica, Pipe was always curious about the world around him. One day, he stumbled upon an old laptop left by researchers and began learning the R language to better understand the behavior of his kin. Thanks to his data analysis skills, Pipe has helped uncover many secrets of penguin life, from migrations to dietary habits. Now he is eager to share his knowledge with you so you can explore this fascinating world of data together with him!</p>
+<div class="columns">
+<div class="column">
+<section id="interests" class="level2">
+<h2 class="anchored" data-anchor-id="interests">💡Interests</h2>
+<ul>
+<li>🎭 Penguin behavior analysis</li>
+<li>🖼️ Data visualization</li>
+<li>🤖 Machine learning</li>
+<li>🌍 Antarctic ecology</li>
+</ul>
+</section>
+</div><div class="column">
+<section id="philosophy" class="level2">
+<h2 class="anchored" data-anchor-id="philosophy">💭Philosophy</h2>
+<blockquote class="blockquote">
+<p>“Data isn’t just numbers. These are stories waiting to be told.”</p>
+</blockquote>
+</section>
+</div>
+</div>
+<div class="columns">
+<div class="column">
+<section id="likes" class="level2">
+<h2 class="anchored" data-anchor-id="likes">👍Likes</h2>
+<ul>
+<li>🐟 Favorite food: Fresh fish</li>
+<li>🎶 Favorite music: Sounds of the ocean and calls of other penguins</li>
+<li>✨ Hobbies: Swimming, exploring new territories, and playing snowballs</li>
+</ul>
+</section>
+</div><div class="column">
+<section id="fun-facts" class="level2">
+<h2 class="anchored" data-anchor-id="fun-facts">✅Fun Facts</h2>
+<ul>
+<li>🛠️ Pipe learned to code by watching researchers.</li>
+<li>🗃️ He created his own dataset on penguin behavior, which is used in scientific studies.</li>
+<li>🏫 Pipe dreams of one day opening a school for penguins where they can learn data science.</li>
+</ul>
+</section>
+</div>
+</div>
+</section>
+<section id="expedition-survival-rules" class="level1 page-columns page-full">
+<h1>🧊Expedition Survival Rules</h1>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><img src="img/rules.png" class="img-fluid"></p>
+</div></div><ul>
+<li><strong>How to Earn Explorer Badges (Grading)</strong>: Your successes are recorded in the logbook. For every timely weekly report, you receive up to 10 points. The final gala presentation of your research is worth 30 points. The most active explorers at briefings can receive up to 5 bonus points.</li>
+<li><strong>If You Get Caught in a Snowstorm (Deadline Policy)</strong>: We understand that anything can happen on an expedition. You can submit a report up to 3 days late, but every day of the storm “eats up” 20% of the maximum grade.</li>
+<li><strong>Polar Explorer’s Honor (Academic Integrity)</strong>: True explorers rely on their own strength. You can consult at base camp, but the map of your research (code and reports) must be unique. Plagiarism is like trying to pass off someone else’s find as your own. Such actions are not tolerated.</li>
+<li><strong>Using Robot Assistants</strong> (Artificial Intelligence): In our expedition, the use of high-tech drones (ChatGPT, Copilot, Gemini, etc.) is allowed. You can ask them to explain complex code, look for errors (debug), or generate ideas for visualization. <strong>BUT</strong>: You are the lead researcher. The robot cannot write the report for you. You must understand all the code that goes into your logbook. If Pipe asks you “what does this function do?” and you say “I don’t know, the robot wrote it”—that is a mission failure. <em>Rule</em>: If you used AI to generate part of the code, state this in a comment (e.g., <code># generated using Copilot, verified by me</code>).</li>
+</ul>
+</section>
+<section id="our-journey-route" class="level1 page-columns page-full">
+<h1>🔀Our Journey Route</h1>
+<div class="cell page-columns page-full" data-layout-align="default">
+<div class="cell-output-display column-screen-right">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'cScale0': '#E6F0FF', 
+      'cScale1': '#DAE8FF',
+      'cScale2': '#D0E0FF',
+      'cScale3': '#C6D8FF',
+      'cScale4': '#BCCFFF',
+      'cScale5': '#B2C6FF',
+      'cScale6': '#A8BEFF',
+      'cScale7': '#9EB6FF',
+      'cScaleLabel0': '#001a33',
+      'cScaleLabel1': '#001a33',
+      'cScaleLabel2': '#001a33',
+      'cScaleLabel3': '#001a33',
+      'cScaleLabel4': '#001a33',
+      'cScaleLabel5': '#001a33',
+      'cScaleLabel6': '#001a33',
+      'cScaleLabel7': '#001a33'
+    }
+  }
+}%%
+
+timeline
+        title 📍Expedition Roadmap
+        section Week No.
+          Campfire&lt;br&gt;Briefing Topic : Field&lt;br&gt;Research&lt;br&gt;Description : Weekly Report No.
+        section WEEK 1
+          🧳&lt;br&gt;PACKING&lt;br&gt;SUITCASES : R and IDE&lt;br&gt;Basic R commands&lt;br&gt;Data types : Report 1
+        section WEEK 2
+          🐧&lt;br&gt;FIRST STEPS ON ICE : dplyr&lt;br&gt;tidyr&lt;br&gt;tibble : Report 2
+        section WEEK 3 &lt;br&gt; 
+          📓KEEPING THE CAPTAIN'S LOG : Quarto&lt;br&gt;Reports&lt;br&gt;Presentations : Report 3
+        section WEEK 4 &lt;br&gt; 
+          🗺️&lt;br&gt;VISUALIZING COLONY DATA : ggplot2&lt;br&gt;Layers&lt;br&gt;EDA : Report 4
+        section WEEK 5 &lt;br&gt; 
+          📡&lt;br&gt;LISTENING TO PENGUIN TALK : rvest&lt;br&gt;httr2&lt;br&gt;API : Report 5
+        section WEEK 6 &lt;br&gt; 
+          🔍TECHNIQUES FOR ADVANCED EXPLORERS : DuckDB&lt;br&gt;Arrow&lt;br&gt;Polars : Report 6
+        section WEEK 7 &lt;br&gt; 
+          🗺MAPPING UNCHARTED LANDS : sf&lt;br&gt;shapefiles&lt;br&gt;rayshader : Report 7
+        section WEEK 8 &lt;br&gt; 
+          🎉GRAND PENGUIN GALA PRESENTATION!
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<section id="expedition-logbook-route-details" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="expedition-logbook-route-details">📖Expedition Logbook: Route Details</h2>
+<div class="column-page-right">
+<div class="columns">
+<div class="column">
+<section id="week-1-packing-suitcases" class="level4">
+<h4 class="anchored" data-anchor-id="week-1-packing-suitcases"><strong>Week 1: 🧳 Packing Suitcases</strong></h4>
+<ul>
+<li><strong>Topic:</strong> R Basics, IDE, Data Types.
+<ul>
+<li><strong>Task:</strong> Researchers from the ‘Palmer’ Antarctic station have sent us the first file. It contains basic data on the penguin population. Our first task is to open this “evidence container” in RStudio, check if all data is in place, and determine where we have numbers (beak length), where we have text (penguin species), and where we have logical variables (whether a chick was sighted). This is the foundation of our investigation, and we must be confident in the quality of our first evidence.</li>
+<li><strong>Result of Report #1:</strong> The researcher loads the data, uses functions <code>str()</code>, <code>summary()</code>, <code>class()</code>, and writes a short conclusion.</li>
+</ul></li>
+</ul>
+</section>
+</div><div class="column">
+<section id="week-2-first-steps-on-ice" class="level4">
+<h4 class="anchored" data-anchor-id="week-2-first-steps-on-ice"><strong>Week 2: 🐧 First Steps on Ice</strong></h4>
+<ul>
+<li><strong>Topic:</strong> <code>dplyr</code>, <code>tidyr</code> (data transformation).
+<ul>
+<li><strong>Task:</strong> We received a new file about the temperature regime. But the data was collected from several buoys, and it is, to put it mildly, messy. Somewhere there are gaps (<code>NA</code>), somewhere the temperature is in Fahrenheit instead of Celsius. Your task is to “clean up the crime scene”: using <code>dplyr</code>, filter out records from broken buoys, using <code>mutate()</code>, create a new column with temperature in Celsius, and using <code>select()</code>, keep only the most important columns. We cannot look for anomalies in dirty data.</li>
+<li><strong>Result of Report #2:</strong> The researcher provides code for cleaning the data and the final “clean” table.</li>
+</ul></li>
+</ul>
+</section>
+</div>
+</div>
+<div class="columns">
+<div class="column">
+<section id="week-3-keeping-the-captains-log" class="level4">
+<h4 class="anchored" data-anchor-id="week-3-keeping-the-captains-log"><strong>Week 3: 📓 Keeping the Captain’s Log</strong></h4>
+<ul>
+<li><strong>Topic:</strong> <code>Quarto</code> (reports).
+<ul>
+<li><strong>Task:</strong> The International Penguin Council demands the first interim report. They don’t want to see just code. They need a professional document. Your task is to format the results of the previous week (cleaned data) into a Quarto report. Add headings, a text description of your actions, the code itself, and the output (e.g., the first 6 rows of the clean table). This is our first official document in the case of the disappearing sardines!</li>
+<li><strong>Result of Report #3:</strong> A professionally formatted PDF or HTML report documenting the first steps of the investigation.</li>
+</ul></li>
+</ul>
+</section>
+</div><div class="column">
+<section id="week-4-visualizing-colony-data" class="level4">
+<h4 class="anchored" data-anchor-id="week-4-visualizing-colony-data"><strong>Week 4: 🗺️ Visualizing Colony Data</strong></h4>
+<ul>
+<li><strong>Topic:</strong> <code>ggplot2</code> (visualization).
+<ul>
+<li><strong>Task:</strong> Dry numbers are good, but we need a picture! Using cleaned temperature data and sardine population data, create a chart using <code>ggplot2</code>. On the X-axis—years, on the Y-axis—water temperature and sardine count. Is there a visual correlation? Is it true that when the water gets warmer, there are fewer fish? This could be our first serious piece of evidence!</li>
+<li><strong>Result of Report #4:</strong> A chart with a conclusion: Visual analysis shows a potential inverse relationship between water temperature and sardine population. Further research is needed.</li>
+</ul></li>
+</ul>
+</section>
+</div>
+</div>
+<div class="columns">
+<div class="column">
+<section id="week-5-listening-to-penguin-talk" class="level4">
+<h4 class="anchored" data-anchor-id="week-5-listening-to-penguin-talk"><strong>Week 5: 📡 Listening to Penguin Talk</strong></h4>
+<ul>
+<li><strong>Topic:</strong> Web scraping, API.
+<ul>
+<li><strong>Task:</strong> One hypothesis is the change in sea ice area. We don’t have this data, but the National Snow and Ice Data Center (NSIDC) publishes it online. Your task is to collect data on Antarctic ice area for the last 10 years using <code>rvest</code> (or via API, if available). Is there a declining trend? This could be another factor affecting the ecosystem.</li>
+<li><strong>Result of Report #5:</strong> A script for data collection and the obtained dataset with a short description.</li>
+</ul></li>
+</ul>
+</section>
+</div><div class="column">
+<section id="week-6-techniques-for-advanced-explorers" class="level4">
+<h4 class="anchored" data-anchor-id="week-6-techniques-for-advanced-explorers"><strong>Week 6: 🔍 Techniques for Advanced Explorers</strong></h4>
+<ul>
+<li><strong>Topic:</strong> <code>DuckDB</code>, <code>Arrow</code> (big data).
+<ul>
+<li><strong>Task:</strong> We were handed a giant archive. It contains millions of records on fishing vessel activity. Opening it in Excel is suicide. Use <code>Arrow</code> and <code>DuckDB</code> to efficiently analyze this data without loading it into memory. Our question: has fishing activity increased in the sardine disappearance area in recent years?</li>
+<li><strong>Result of Report #6:</strong> An SQL query via <code>DuckDB</code> to the file and the result (e.g., an aggregated table by years) with a conclusion.</li>
+</ul></li>
+</ul>
+</section>
+</div>
+</div>
+<div class="columns">
+<div class="column">
+<section id="week-7-mapping-uncharted-lands" class="level4">
+<h4 class="anchored" data-anchor-id="week-7-mapping-uncharted-lands"><strong>Week 7: 🗺 Mapping Uncharted Lands</strong></h4>
+<ul>
+<li><strong>Topic:</strong> <code>sf</code> (spatial analysis).
+<ul>
+<li><strong>Task:</strong> We have coordinates of temperature buoys, fishing data, and places where sardines disappeared. Time to put it all on a map! Using <code>sf</code>, create a map of the region. Mark thermal anomalies (highest temperature), intense fishing zones, and places where sardines were seen previously. are there “hot spots” where all these factors intersect? This could be the epicenter of our mystery.</li>
+<li><strong>Result of Report #7:</strong> A map of the region with data layers applied and a conclusion about the spatial overlap of factors.</li>
+</ul></li>
+</ul>
+</section>
+</div><div class="column">
+<section id="week-8-grand-penguin-gala-presentation" class="level4">
+<h4 class="anchored" data-anchor-id="week-8-grand-penguin-gala-presentation"><strong>Week 8: 🎉 Grand Penguin Gala Presentation!</strong></h4>
+<ul>
+<li><strong>Topic:</strong> Final Project.
+<ul>
+<li><strong>Task:</strong> Zero Hour. You have collected all the evidence. Now combine the results of all previous reports (text, code, charts, maps) into one final, comprehensive report in Quarto. Draw a clear conclusion, answering the main question: <strong>what happened to the ice sardine?</strong> Present your theory, backed by the data you analyzed throughout the expedition.</li>
+</ul></li>
+</ul>
+</section>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="our-base-camp" class="level1">
+<h1>🏕️Our Base Camp</h1>
+<p>No explorer works alone! Our base camp is a shared Slack chat where we:</p>
+<ul>
+<li>Share interesting findings (useful articles, R packages).</li>
+<li>Help each other if someone gets stuck in a snowdrift (code hanging).</li>
+<li>Prepare together for new stages of the expedition.</li>
+</ul>
+<p><strong>Remember:</strong> the strength of the expedition is in its team!</p>
+<p>Ready for adventure? Then forward, to data and penguins! 🐧🧭</p>
+<p><img src="img/camp.png" class="img-fluid"></p>
+
+
+</section>
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/kse-stat150-r4ds\.github\.io");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© Copyright 2026, Ihor Miroshnychenko</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/aranaur/kse-stat150-r4ds.github.io/edit/main/course-syllabus.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/aranaur/kse-stat150-r4ds.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p>This page is built with 🤍 and <a href="https://quarto.org/">Quarto</a>.</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

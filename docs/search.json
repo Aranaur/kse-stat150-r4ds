@@ -1,0 +1,177 @@
+[
+  {
+    "objectID": "course-team.html",
+    "href": "course-team.html",
+    "title": "Instructor",
+    "section": "",
+    "text": "Dr. Ihor Miroshnychenko\n👋 Course Faculty\nIhor holds a PhD in Economics and brings a wealth of academic and practical experience to the course. Currently, he is a Teacher at the  Computer Science Department at Kyiv School of Economics.\nHis research and professional focus lie in Data Science, Statistics, and Machine Learning. He is passionate about equipping students with the tools to analyze data effectively and communicate findings clearly.\nBeyond the Data:\nWhen not teaching or coding, Ihor is a true explorer of both real and imaginary worlds.\n\n🎸 Musician: Guitar player and a dedicated Metalhead.\n⚔️ History & Fantasy: Engaged in historical reconstruction and is a big fan of the Middle-earth universe.\n📷 Hobbies: Photography, gaming, reading, and traveling.\n\n\n\n\n📬 Contact & Connect\nFind me on the web or send a signal:\n\n Email: imiroshnychenko@kse.org.ua\n Web: aranaur.rbind.io\n GitHub: @aranaur\n Telegram @araprof\n LinkedIn: ihormiroshnychenko\n\n\n\n\n🐧 Co-pilot\n\nPipe the Penguin\n\nRole: Teaching Assistant (STAT150 Edition)\nExpertise: Sliding on ice, eating fish, and piping data (|&gt;)\nOffice Hours: Whenever there is fish available.\n\nPipe assists Dr. Ihor in preparing materials and ensures that all datasets are strictly “penguin-approved”.\n\n\n\n\n\n\nNoteTeaching Philosophy\n\n\n\n“I believe that data science is a powerful tool for understanding the world around us. My goal is to help students develop a deep appreciation for the role of data in decision-making and to equip them with the skills to analyze data effectively and communicate their findings clearly.”",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Teaching team"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "course-syllabus.html",
+    "href": "course-syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Welcome, young explorers!\nThis semester, we are setting off on a thrilling scientific expedition to the icy shores of Antarctica. Our lead guide is an experienced polar explorer, a penguin named Pipe1. He knows everything about data, because his whole life is data: the length of his beak, his wingspan, and even his favorite type of fish!\n1 He got his name for his amazing ability to combine different actions into one smooth and logical flow, as if passing data through an invisible “pipeline” (|&gt;). This is the approach he wants to pass on to you!Our mission is to learn the R language to understand penguins, analyze their lives, and present our findings to the world. Forget about boring lectures. We have campfire briefings, field research, and a final Grand Penguin Gala Presentation awaiting us!\n\n\n\n\n\nOnce upon a time, in faraway Antarctica, penguins lived their quiet lives until the first explorers arrived and started collecting data on their behavior. Over time, this data turned into massive sets of information that needed analysis. That was when Pipe appeared, a researcher penguin who learned to use R to understand his world. Now Pipe wants to share his knowledge with you so that you can help him uncover the secrets of penguin life.\n\n\n\nLately, Pipe has noticed something strange. The population of his favorite fish, the ice sardine, has started to decline sharply near the coast. What is happening? Is it climate change? A new predator? Or perhaps the fish have simply migrated?\n\n\n\nOur mission is to use the full power of R to analyze data on water temperature, ocean currents, the activity of other animals, and find the answer. The final project will serve as your report to the International Penguin Council, where you will present your findings and save the future of the ice sardines!\n\n\n\n\n\n\n\n🧠 An open mind and a thirst for knowledge.\n🤓 A desire to experiment and no fear of making mistakes.\n🤝 Readiness to work in a team and share ideas.\n🧥 Comfortable clothing for cold weather (metaphorically—a comfortable working environment on your computer).\n\n\n\n\n\nMaster the basics of programming in R and using RStudio.\nLearn to collect, clean, and analyze data.\nDevelop data visualization skills using ggplot2.\nPrepare and present your own research in the form of a Quarto report.\n\n\n\n\n\n\n\n\nYou will be able to confidently write code in R for data analysis.\nYou will learn to create informative visualizations.\nYou will gain experience working with real datasets.\nYou will be able to present your findings in the form of a professional report.\n\n\n\n\nOur route includes several exciting stages:\n\n\n\n\n🔥Campfire Briefings (Lectures): Here, our lead guide (the instructor) and Pipe will share wisdom: showing maps, teaching how to use tools (R and RStudio), and telling stories about great discoveries in the world of data.\n🧪Field Research (Practical Labs): Time to get your hands dirty! We will go out onto the “ice floes” (real datasets), learn to clean snow off the data, build charts that shine like the aurora borealis, and make our own discoveries.\n📈Weekly Expedition Reports (Homework): Every explorer keeps a logbook. You will document your findings, write code, and share results in the format of Quarto reports.\n🎊Grand Penguin Gala Presentation (Final Project): The culmination of our journey! You (solo or in a team) will present your own research—from data collection to final conclusions—before the esteemed council of penguins (and the instructor).",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#history-of-the-expedition",
+    "href": "course-syllabus.html#history-of-the-expedition",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Once upon a time, in faraway Antarctica, penguins lived their quiet lives until the first explorers arrived and started collecting data on their behavior. Over time, this data turned into massive sets of information that needed analysis. That was when Pipe appeared, a researcher penguin who learned to use R to understand his world. Now Pipe wants to share his knowledge with you so that you can help him uncover the secrets of penguin life.",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#the-mystery-of-the-expedition",
+    "href": "course-syllabus.html#the-mystery-of-the-expedition",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Lately, Pipe has noticed something strange. The population of his favorite fish, the ice sardine, has started to decline sharply near the coast. What is happening? Is it climate change? A new predator? Or perhaps the fish have simply migrated?\n\n\n\nOur mission is to use the full power of R to analyze data on water temperature, ocean currents, the activity of other animals, and find the answer. The final project will serve as your report to the International Penguin Council, where you will present your findings and save the future of the ice sardines!",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#what-to-pack-for-the-expedition",
+    "href": "course-syllabus.html#what-to-pack-for-the-expedition",
+    "title": "Syllabus",
+    "section": "",
+    "text": "🧠 An open mind and a thirst for knowledge.\n🤓 A desire to experiment and no fear of making mistakes.\n🤝 Readiness to work in a team and share ideas.\n🧥 Comfortable clothing for cold weather (metaphorically—a comfortable working environment on your computer).",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#expedition-goals",
+    "href": "course-syllabus.html#expedition-goals",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Master the basics of programming in R and using RStudio.\nLearn to collect, clean, and analyze data.\nDevelop data visualization skills using ggplot2.\nPrepare and present your own research in the form of a Quarto report.",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#expedition-results",
+    "href": "course-syllabus.html#expedition-results",
+    "title": "Syllabus",
+    "section": "",
+    "text": "You will be able to confidently write code in R for data analysis.\nYou will learn to create informative visualizations.\nYou will gain experience working with real datasets.\nYou will be able to present your findings in the form of a professional report.",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#what-awaits-us",
+    "href": "course-syllabus.html#what-awaits-us",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Our route includes several exciting stages:\n\n\n\n\n🔥Campfire Briefings (Lectures): Here, our lead guide (the instructor) and Pipe will share wisdom: showing maps, teaching how to use tools (R and RStudio), and telling stories about great discoveries in the world of data.\n🧪Field Research (Practical Labs): Time to get your hands dirty! We will go out onto the “ice floes” (real datasets), learn to clean snow off the data, build charts that shine like the aurora borealis, and make our own discoveries.\n📈Weekly Expedition Reports (Homework): Every explorer keeps a logbook. You will document your findings, write code, and share results in the format of Quarto reports.\n🎊Grand Penguin Gala Presentation (Final Project): The culmination of our journey! You (solo or in a team) will present your own research—from data collection to final conclusions—before the esteemed council of penguins (and the instructor).",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#interests",
+    "href": "course-syllabus.html#interests",
+    "title": "Syllabus",
+    "section": "💡Interests",
+    "text": "💡Interests\n\n🎭 Penguin behavior analysis\n🖼️ Data visualization\n🤖 Machine learning\n🌍 Antarctic ecology",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#philosophy",
+    "href": "course-syllabus.html#philosophy",
+    "title": "Syllabus",
+    "section": "💭Philosophy",
+    "text": "💭Philosophy\n\n“Data isn’t just numbers. These are stories waiting to be told.”",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#likes",
+    "href": "course-syllabus.html#likes",
+    "title": "Syllabus",
+    "section": "👍Likes",
+    "text": "👍Likes\n\n🐟 Favorite food: Fresh fish\n🎶 Favorite music: Sounds of the ocean and calls of other penguins\n✨ Hobbies: Swimming, exploring new territories, and playing snowballs",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#fun-facts",
+    "href": "course-syllabus.html#fun-facts",
+    "title": "Syllabus",
+    "section": "✅Fun Facts",
+    "text": "✅Fun Facts\n\n🛠️ Pipe learned to code by watching researchers.\n🗃️ He created his own dataset on penguin behavior, which is used in scientific studies.\n🏫 Pipe dreams of one day opening a school for penguins where they can learn data science.",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#expedition-logbook-route-details",
+    "href": "course-syllabus.html#expedition-logbook-route-details",
+    "title": "Syllabus",
+    "section": "📖Expedition Logbook: Route Details",
+    "text": "📖Expedition Logbook: Route Details\n\n\n\n\nWeek 1: 🧳 Packing Suitcases\n\nTopic: R Basics, IDE, Data Types.\n\nTask: Researchers from the ‘Palmer’ Antarctic station have sent us the first file. It contains basic data on the penguin population. Our first task is to open this “evidence container” in RStudio, check if all data is in place, and determine where we have numbers (beak length), where we have text (penguin species), and where we have logical variables (whether a chick was sighted). This is the foundation of our investigation, and we must be confident in the quality of our first evidence.\nResult of Report #1: The researcher loads the data, uses functions str(), summary(), class(), and writes a short conclusion.\n\n\n\n\n\nWeek 2: 🐧 First Steps on Ice\n\nTopic: dplyr, tidyr (data transformation).\n\nTask: We received a new file about the temperature regime. But the data was collected from several buoys, and it is, to put it mildly, messy. Somewhere there are gaps (NA), somewhere the temperature is in Fahrenheit instead of Celsius. Your task is to “clean up the crime scene”: using dplyr, filter out records from broken buoys, using mutate(), create a new column with temperature in Celsius, and using select(), keep only the most important columns. We cannot look for anomalies in dirty data.\nResult of Report #2: The researcher provides code for cleaning the data and the final “clean” table.\n\n\n\n\n\n\n\n\nWeek 3: 📓 Keeping the Captain’s Log\n\nTopic: Quarto (reports).\n\nTask: The International Penguin Council demands the first interim report. They don’t want to see just code. They need a professional document. Your task is to format the results of the previous week (cleaned data) into a Quarto report. Add headings, a text description of your actions, the code itself, and the output (e.g., the first 6 rows of the clean table). This is our first official document in the case of the disappearing sardines!\nResult of Report #3: A professionally formatted PDF or HTML report documenting the first steps of the investigation.\n\n\n\n\n\nWeek 4: 🗺️ Visualizing Colony Data\n\nTopic: ggplot2 (visualization).\n\nTask: Dry numbers are good, but we need a picture! Using cleaned temperature data and sardine population data, create a chart using ggplot2. On the X-axis—years, on the Y-axis—water temperature and sardine count. Is there a visual correlation? Is it true that when the water gets warmer, there are fewer fish? This could be our first serious piece of evidence!\nResult of Report #4: A chart with a conclusion: Visual analysis shows a potential inverse relationship between water temperature and sardine population. Further research is needed.\n\n\n\n\n\n\n\n\nWeek 5: 📡 Listening to Penguin Talk\n\nTopic: Web scraping, API.\n\nTask: One hypothesis is the change in sea ice area. We don’t have this data, but the National Snow and Ice Data Center (NSIDC) publishes it online. Your task is to collect data on Antarctic ice area for the last 10 years using rvest (or via API, if available). Is there a declining trend? This could be another factor affecting the ecosystem.\nResult of Report #5: A script for data collection and the obtained dataset with a short description.\n\n\n\n\n\nWeek 6: 🔍 Techniques for Advanced Explorers\n\nTopic: DuckDB, Arrow (big data).\n\nTask: We were handed a giant archive. It contains millions of records on fishing vessel activity. Opening it in Excel is suicide. Use Arrow and DuckDB to efficiently analyze this data without loading it into memory. Our question: has fishing activity increased in the sardine disappearance area in recent years?\nResult of Report #6: An SQL query via DuckDB to the file and the result (e.g., an aggregated table by years) with a conclusion.\n\n\n\n\n\n\n\n\nWeek 7: 🗺 Mapping Uncharted Lands\n\nTopic: sf (spatial analysis).\n\nTask: We have coordinates of temperature buoys, fishing data, and places where sardines disappeared. Time to put it all on a map! Using sf, create a map of the region. Mark thermal anomalies (highest temperature), intense fishing zones, and places where sardines were seen previously. are there “hot spots” where all these factors intersect? This could be the epicenter of our mystery.\nResult of Report #7: A map of the region with data layers applied and a conclusion about the spatial overlap of factors.\n\n\n\n\n\nWeek 8: 🎉 Grand Penguin Gala Presentation!\n\nTopic: Final Project.\n\nTask: Zero Hour. You have collected all the evidence. Now combine the results of all previous reports (text, code, charts, maps) into one final, comprehensive report in Quarto. Draw a clear conclusion, answering the main question: what happened to the ice sardine? Present your theory, backed by the data you analyzed throughout the expedition.",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Course overview",
+    "section": "",
+    "text": "This is the homepage for STAT150: R for Data Scince taught by Dr. Ihor Miropshnychenko in Autumn 2025 at Kyiv School of Economics.",
+    "crumbs": [
+      "Home",
+      "Course information",
+      "Overview"
+    ]
+  }
+]

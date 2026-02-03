@@ -1,0 +1,102 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "STAT150: R for Data Science"
+  description: "🐧Expedition to R: In the Footsteps of the Palmer Penguins at Kyiv School of Economics, Autumn 2025."
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+  site-url: "https://kse-stat150-r4ds.github.io"
+
+  repo-url: https://github.com/aranaur/kse-stat150-r4ds.github.io
+  repo-actions: [edit, issue]
+
+  sidebar:
+    background: "#F0F4F8"
+    logo: "images/logo.png"
+    pinned: true
+    align: center
+
+    tools:
+      - icon: moodle
+        href: https://teaching.kse.org.ua/course/view.php?id=3374
+        text: "Moodle"
+      - icon: github
+        href: https://github.com/aranaur/kse-stat150-r4ds.github.io
+
+    style: docked
+    search: true
+    collapse-level: 1
+
+
+    contents:
+      - section: "Course information"
+        contents:
+          - href: index.qmd
+            text: Overview
+          - href: course-syllabus.qmd
+            text: Syllabus
+          - href: course-team.qmd
+            text: Teaching team
+          - href: schedule.qmd
+            text: Schedule
+          - href: course-links.qmd
+            text: Useful links
+      - section: "Labs"
+        contents:
+          - href: labs/lab-1.qmd
+            text: Lab 1
+          - href: labs/lab-2.qmd
+            text: Lab 2
+          - href: labs/lab-3.qmd
+            text: Lab 3  
+          - href: labs/lab-4.qmd
+            text: Lab 4
+          - href: labs/lab-5.qmd
+            text: Lab 5
+          - href: labs/lab-6.qmd
+            text: Lab 6
+          - href: labs/lab-7.qmd
+            text: Lab 7
+          - href: labs/lab-8.qmd
+            text: Lab 8
+      - section: "Projects"
+        contents:
+          - href: project/project-1.qmd
+            text: "Project 1"
+          - href: project/project-2.qmd
+      - section: "Computing"
+        contents:
+          - href: computing/computing-access.qmd
+            text: Access
+          - href: computing/computing-troubleshooting.qmd
+            text: Troubleshooting
+          - href: computing/computing-cheatsheets.qmd
+            text: Cheatsheets
+      - href: extra-credit.qmd
+        text: Extra credit
+
+  page-footer:
+    right: "This page is built with 🤍 and [Quarto](https://quarto.org/)."
+    left: "&copy; Copyright 2026, Ihor Miroshnychenko"
+    background: "#263238"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    linkcolor: "#E65100"
+    toc: true
+    code-copy: true
+    code-overflow: wrap
+
+execute:
+  freeze: auto
+
+
+
